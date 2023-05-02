@@ -1,0 +1,33 @@
+package it.epicode.be;
+
+public class Helloworld {
+
+	public static void main (String[] args) {
+		// Stampa a console  la frase
+		System.out.println("This is my first Epicode Java Project!");
+		
+		int num1 = 10;
+		int num2 = 15;
+		String str = "Num.";
+		
+		moltiplica(num1, num2);
+		concatena(str, 15);
+		inserisciInArray(strArr, str);
+
+	}
+	
+	public static int moltiplica(int num1, int num2) {
+		
+	}
+	
+	public static String concatena(String str, int num) {
+		
+	}
+	
+	public static String[] inserisciInArray(String[] arr, String str) {
+		
+	}
+
+}
+
+

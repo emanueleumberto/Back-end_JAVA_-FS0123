@@ -1,0 +1,19 @@
+package com.epicode.test;
+
+public class MainProject {
+
+	public static void main(String[] args) {
+
+		boolean b = true;
+		char c = 'f';
+		int i = 25;
+		double d = 25.3;
+		// float 32bit -> double 64bit
+		float f = 25.3f;
+		String s = "Ciao";
+		//String str = new String();
+		System.out.println("Ciao a tutti");
+
+	}
+
+}

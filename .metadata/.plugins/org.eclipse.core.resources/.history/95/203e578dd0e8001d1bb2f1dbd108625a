@@ -1,0 +1,17 @@
+package com.epicode.test;
+
+public class MainProject {
+
+	public static void main(String[] args) {
+
+		boolean b = true;
+		char c = 'f';
+		int i = 25;
+		double d = 25.3;
+		String s = "Ciao";
+		String str = new String();
+		System.out.println(d);
+
+	}
+
+}
