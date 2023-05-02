@@ -84,7 +84,7 @@ public class Helloworld {
 	}
 	
 	public static double areaTriangolo(double num1, double num2, double num3) {
-		return 1;
+		return 0;
 	}
 }
 
