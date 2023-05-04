@@ -20,9 +20,20 @@ public class MainProject {
 		// TODO Auto-generated method stub
 		Rettangolo r1 = new Rettangolo(10, 25);
 		Rettangolo r2 = new Rettangolo(25, 8);
+		Rettangolo r3 = new Rettangolo(30, 20);
 		
-
+//		r1.calcolaArea();
+//		r1.calcolaPerimetro();
+//		r2.calcolaArea();
+//		r2.calcolaPerimetro();
+//		r3.calcolaArea();
+//		r3.calcolaPerimetro();
+//		stampaRettangolo(r1);
+//		stampaRettangolo(r2);
+//		stampaRettangolo(r3);
+//
 		stampaDueRettangoli(r1,r2);
+		stampaDueRettangoli(r1,r3);
 	}		
 		
 	
@@ -38,8 +49,5 @@ public class MainProject {
 			System.out.println("Somma Perimetri dei Rettangolo: " + (r1.calcolaPerimetro() + r2.calcolaPerimetro()));
 		}
 	
-	
-	
-
 }
 

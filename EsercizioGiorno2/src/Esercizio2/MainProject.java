@@ -25,11 +25,17 @@ Scrivere un main che crei una istanza di SIM e ne stampi i dati.
 
 		CartaSIM s1 = new CartaSIM("123456789");
 		s1.ricaricaSim(10);
-		s1.effettuaChiamata(new Chiamata("3296530", 5));
-		s1.effettuaChiamata(new Chiamata("9783952", 2));
-		s1.effettuaChiamata(new Chiamata("1243512", 4));
+		CartaSIM s2 = new CartaSIM("987458787");
+		s2.ricaricaSim(5);
+		
+		s1.effettuaChiamata("3296530", 5);
+		s1.effettuaChiamata("9783952", 2);
+		s2.effettuaChiamata("1243512", 4);
+		
+		System.out.println("----------------");
 		s1.stampaDatiSIM();
-
+		System.out.println("----------------");
+		s2.stampaDatiSIM();
 	}
 
 }

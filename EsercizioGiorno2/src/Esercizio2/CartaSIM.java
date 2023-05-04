@@ -2,6 +2,7 @@ package Esercizio2;
 
 public class CartaSIM {
 	
+	public static double costoMinutoChiamata = 0.20;
 	public String numeroTelefono;
 	public double creditoDisponibile;
 	public Chiamata[] chiamateEffettuate;
@@ -16,19 +17,23 @@ public class CartaSIM {
 		this.creditoDisponibile += importo;
 	}
 	
-	public void effettuaChiamata(Chiamata c) {
+	public void effettuaChiamata(String numero, int minuti) {
+
 		if(this.creditoDisponibile > 0) {
-		
+			Chiamata c = new Chiamata(numero, minuti);
+			System.out.println("Chiamata effettuata sul num. " + c.numeroChiamato + " min." + c.durataMinuti);
+			this.creditoDisponibile -= minuti*costoMinutoChiamata;
+			
 			for (int i = 0; i < chiamateEffettuate.length; i++) {
 				if(chiamateEffettuate[i] == null) {
 					chiamateEffettuate[i] = c;
 					break;
 				}
-				
 			}
 		} else {
 			System.out.println("Non hai Credito disponibile");
 		}
+		
 	}
 	
 	public void stampaDatiSIM() {
