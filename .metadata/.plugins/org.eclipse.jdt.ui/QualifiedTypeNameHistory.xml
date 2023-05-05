@@ -10,9 +10,9 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="Esercizio3.Cliente"/>
     <fullyQualifiedTypeName name="Esercizio3.Carrello"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.epicode.test.MainProjectTest"/>
     <fullyQualifiedTypeName name="ParadigmiOOP.Persona"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
