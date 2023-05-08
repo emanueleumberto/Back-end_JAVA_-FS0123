@@ -22,8 +22,7 @@ public class MainProject {
 		for (int i = 0; i < ogg.length; i++) {
 			ogg[i].aggiornaNavigatore();
 		}
-		
-		
+
 		
 		Veicolo[] arr = new Veicolo[5];
 		arr[0] = v1; // 
