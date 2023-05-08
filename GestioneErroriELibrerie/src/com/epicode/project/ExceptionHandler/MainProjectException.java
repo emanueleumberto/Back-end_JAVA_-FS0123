@@ -15,7 +15,6 @@ public class MainProjectException {
 	
 	public static void operazione() {
 		
-		
 		boolean end = false;
 		do {
 			try {
@@ -49,6 +48,7 @@ public class MainProjectException {
 			System.out.println("Finally");
 		}
 		} while(!end);
+	
 		
 	}
 	
