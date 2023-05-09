@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="com.epicode.project.classes.Veicolo"/>
     <fullyQualifiedTypeName name="com.epicode.project.classes.Moto"/>
     <fullyQualifiedTypeName name="com.epicode.project.classes.Camper"/>
-    <fullyQualifiedTypeName name="com.epicode.project.classes.Automobile"/>
     <fullyQualifiedTypeName name="com.epicode.project.classes.Smartphone"/>
     <fullyQualifiedTypeName name="com.epicode.project.interfaces.Navigatore"/>
     <fullyQualifiedTypeName name="com.epicode.project.ExceptionHandler.MyException"/>
@@ -33,4 +32,20 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.epicode.esercizio3.BancaException"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="com.epicode.project.classes.Automobile"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

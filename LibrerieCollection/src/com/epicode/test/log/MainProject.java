@@ -159,6 +159,7 @@ public class MainProject {
 		q.forEach(e -> log.info(e));
 		
 		q.clear();
+		
 	}
 	
 	public static void testMap() {

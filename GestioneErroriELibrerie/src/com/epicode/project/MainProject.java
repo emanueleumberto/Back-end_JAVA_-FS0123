@@ -39,6 +39,7 @@ public class MainProject {
 		}
 		
 		Navigatore n = new Automobile(null, null, 0);
+		//Navigatore na = new Navigatore();
 		Automobile a = new Automobile(null, null, 0);
 		n.avviaNavigatore();
 		
