@@ -1,0 +1,123 @@
+10:41:26.767 [main] ERROR com.epicode.test.log.MainProject - Test Error!
+10:50:51.938 [main] INFO  com.epicode.test.log.MainProject - Test Logger!!!
+10:50:51.940 [main] ERROR com.epicode.test.log.MainProject - Test Error!
+10:50:51.940 [main] WARN  com.epicode.test.log.MainProject - Test Warning!
+10:50:51.940 [main] DEBUG com.epicode.test.log.MainProject - Test Debug
+11:43:53.963 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:43:53.967 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:43:53.968 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:43:53.968 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+11:46:27.161 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:46:27.166 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:46:27.166 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:46:27.167 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+11:46:27.167 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+11:46:27.168 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+11:46:27.168 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+11:46:32.428 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:46:32.433 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:46:32.433 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:46:32.434 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+11:46:32.434 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+11:46:32.434 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+11:46:32.434 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+11:46:35.423 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:46:35.428 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:46:35.428 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:46:35.430 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+11:46:35.430 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+11:46:35.430 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+11:46:35.430 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+11:46:37.094 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:46:37.104 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:46:37.104 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:46:37.106 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+11:46:37.106 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+11:46:37.106 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+11:46:37.106 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+11:46:38.477 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+11:46:38.481 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: false
+11:46:38.481 [main] INFO  com.epicode.test.log.MainProject - Collection size: 3
+11:46:38.482 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+11:46:38.482 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+11:46:38.482 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+11:46:38.482 [main] INFO  com.epicode.test.log.MainProject - Collection isEmpty: true
+12:02:31.332 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:02:31.336 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:02:31.336 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:02:31.336 [main] INFO  com.epicode.test.log.MainProject - List indice 0: Secondo Elemento
+12:02:31.336 [main] INFO  com.epicode.test.log.MainProject - List indice 'Secondo Elemento': 0
+12:02:31.337 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:02:31.337 [main] INFO  com.epicode.test.log.MainProject - Nuovo Elemento
+12:11:11.319 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:11:11.322 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:11:11.322 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:11:11.323 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:11:11.323 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:11:11.323 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:11:55.869 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:11:55.873 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:11:55.874 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:11:55.875 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:11:55.875 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:11:55.875 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:11:58.572 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:11:58.579 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:11:58.580 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:11:58.582 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:11:58.582 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:11:58.582 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:12:17.271 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:12:17.278 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:12:17.278 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:12:17.279 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:12:17.280 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:12:17.280 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:15:23.484 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:15:23.491 [main] INFO  com.epicode.test.log.MainProject - List isEmpty: false
+12:15:23.491 [main] INFO  com.epicode.test.log.MainProject - List size: 3
+12:15:23.493 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:15:23.494 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:15:23.495 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:37:29.041 [main] INFO  com.epicode.test.log.MainProject - Contains 'key: a': true
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - Map key 'a': Primo Elemento
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - Map isEmpty: false
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - Map size: 3
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - a
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - b
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - c
+12:37:29.046 [main] INFO  com.epicode.test.log.MainProject - Contains 'Value: Secondo Elemento': false
+12:38:31.564 [main] INFO  com.epicode.test.log.MainProject - Contains 'key: a': true
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - Map key 'a': Primo Elemento
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - Map isEmpty: false
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - Map size: 3
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - a
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - b
+12:38:31.568 [main] INFO  com.epicode.test.log.MainProject - c
+12:38:31.569 [main] INFO  com.epicode.test.log.MainProject - Contains 'Value: Secondo Elemento': true
+12:38:31.569 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:38:31.569 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:38:31.569 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:43:28.998 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:43:29.002 [main] INFO  com.epicode.test.log.MainProject - Queue isEmpty: false
+12:43:29.003 [main] INFO  com.epicode.test.log.MainProject - Queue size: 3
+12:45:47.902 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:45:47.905 [main] INFO  com.epicode.test.log.MainProject - Queue isEmpty: false
+12:45:47.905 [main] INFO  com.epicode.test.log.MainProject - Queue size: 3
+12:45:47.907 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:45:47.907 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:45:47.907 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:45:47.907 [main] INFO  com.epicode.test.log.MainProject - Queue peek element: Primo Elemento
+12:45:47.908 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:45:47.908 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:45:47.908 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:46:58.038 [main] INFO  com.epicode.test.log.MainProject - Contains 'Secondo Elemento': true
+12:46:58.041 [main] INFO  com.epicode.test.log.MainProject - Queue isEmpty: false
+12:46:58.042 [main] INFO  com.epicode.test.log.MainProject - Queue size: 3
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Primo Elemento
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Queue peek element: Primo Elemento
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Queue poll element: Primo Elemento
+12:46:58.043 [main] INFO  com.epicode.test.log.MainProject - Secondo Elemento
+12:46:58.044 [main] INFO  com.epicode.test.log.MainProject - Terzo Elemento

@@ -38,6 +38,10 @@ public class MainProject {
 			System.out.println(veicolo);
 		}
 		
+		Navigatore n = new Automobile(null, null, 0);
+		Automobile a = new Automobile(null, null, 0);
+		n.avviaNavigatore();
+		
 		Navigatore[] oggConNavigatore = {a1, c1, s1};
 		
 		for (Navigatore ogg : oggConNavigatore) {
