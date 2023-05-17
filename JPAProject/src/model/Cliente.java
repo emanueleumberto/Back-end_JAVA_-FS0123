@@ -33,6 +33,19 @@ public class Cliente {
 	@Column(name = "regione_residenza")
 	private String regioneResidenza;
 
+	public Cliente() {
+		super();
+	}
+
+	public Cliente(String nome, String cognome, LocalDate dataNascita, String email, String regioneResidenza) {
+		super();
+		this.nome = nome;
+		this.cognome = cognome;
+		this.dataNascita = dataNascita;
+		this.email = email;
+		this.regioneResidenza = regioneResidenza;
+	}
+
 	public Integer getNumeroCliente() {
 		return numeroCliente;
 	}

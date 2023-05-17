@@ -25,17 +25,23 @@ public class MainProject {
 //			c.setEmail("m.viola@example.com");
 //			inserisciCliente(c);
 			
-			Cliente c = leggiCliente(1);
-			System.out.println(c);
+//			Cliente c2 = new Cliente("Mario", "Rossi", LocalDate.of(1993, 5, 19), "m.rossi@example.com", "Campania");
+//			inserisciCliente(c2);
+			
+//			Cliente c = leggiCliente(2);
+//			System.out.println(c);
 			
 //			c.setRegioneResidenza("Lazio");
 //			modificaCliente(c);
 			
-			eleiminaCliente(c);
+//			eliminaCliente(c);
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} finally {
+			em.close();
+			emf.close();
 		}
 		
 	}
@@ -53,7 +59,7 @@ public class MainProject {
 		em.getTransaction().commit();
 	}
 	
-	public static void eleiminaCliente(Cliente c) {
+	public static void eliminaCliente(Cliente c) {
 		em.getTransaction().begin();
 		em.remove(c);
 		em.getTransaction().commit();
