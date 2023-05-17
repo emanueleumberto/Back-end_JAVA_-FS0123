@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.epicode.contocorrente.ContoCorrente"/>
-    <fullyQualifiedTypeName name="com.epicode.contocorrente.Bancomat"/>
-    <fullyQualifiedTypeName name="com.epicode.esercizio1.ThreadExample"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.epicode.esercizio2.ThreadExample"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -31,9 +28,6 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.epicode.jdbctest.Cliente"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="model.DbConnection"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -41,9 +35,7 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="model.Gender"/>
     <fullyQualifiedTypeName name="model.Studenti"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="model.Cliente"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="entity.Utente"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
@@ -56,8 +48,16 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="entity.CorsiOnline"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="utils.TipoEvento"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="utils.JpaUtil"/>
+    <fullyQualifiedTypeName name="model.Evento"/>
 </qualifiedTypeNameHistroy>
