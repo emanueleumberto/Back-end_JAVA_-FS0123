@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- Crea un bean di tipo Test -->
+    <bean id="testXML" class="com.epicode.config_bean.configurationXML.TestXML" scope="prototype">
+    	<constructor-arg index="0" type="String" value="Primo Bean XML"></constructor-arg>
+    	<constructor-arg index="1" type="String" value="Costruzione primo bean da file Configuration XML!"></constructor-arg>
+    </bean>
+    
+    <!-- Crea un bean di tipo Test -->
+    <bean id="testXMLParams" class="com.epicode.config_bean.configurationXML.TestXML" scope="prototype">
+    	<constructor-arg index="0" type="String" value="Secondo Bean XML"></constructor-arg>
+    	<constructor-arg index="1" type="String" value="Costruzione primo bean da file Configuration XML!"></constructor-arg>
+    </bean>
+    
+</beans>
