@@ -1,0 +1,13 @@
+11:51:31.200 [restartedMain] INFO  c.e.S.SpringAppTestJunitApplication - Starting SpringAppTestJunitApplication using Java 17.0.2 with PID 28832 (C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit)
+11:51:31.202 [restartedMain] INFO  c.e.S.SpringAppTestJunitApplication - No active profile set, falling back to 1 default profile: "default"
+11:51:31.245 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:51:31.798 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:51:31.819 [restartedMain] INFO  c.e.S.SpringAppTestJunitApplication - Started SpringAppTestJunitApplication in 0.994 seconds (process running for 1.668)
+11:51:31.833 [restartedMain] INFO  c.e.S.runner.TestRunner - Test Beans
+12:53:19.639 [restartedMain] INFO  c.e.S.SpringAppTestJunitApplication - Starting SpringAppTestJunitApplication using Java 17.0.2 with PID 18608 (C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit)
+12:53:19.642 [restartedMain] INFO  c.e.S.SpringAppTestJunitApplication - No active profile set, falling back to 1 default profile: "default"
+12:53:19.689 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:02:41.400 [main] INFO  c.e.S.SpringAppTestJunitApplicationTests - Starting SpringAppTestJunitApplicationTests using Java 17.0.2 with PID 34584 (started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit)
+13:02:41.403 [main] INFO  c.e.S.SpringAppTestJunitApplicationTests - No active profile set, falling back to 1 default profile: "default"
+13:02:42.083 [main] INFO  c.e.S.SpringAppTestJunitApplicationTests - Started SpringAppTestJunitApplicationTests in 1.121 seconds (process running for 2.737)
+13:02:42.109 [main] INFO  c.e.S.runner.TestRunner - Test Beans
