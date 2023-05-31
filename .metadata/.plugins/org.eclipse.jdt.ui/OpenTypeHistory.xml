@@ -9,4 +9,5 @@
     <typeInfo handle="=SpringAppTestJunit/C:\/Users\/emau7\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.1.0\/spring-boot-3.1.0.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.boot=/=/maven.artifactId=/spring-boot=/=/maven.version=/3.1.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.boot(CommandLineRunner.class[CommandLineRunner" modifiers="1537" timestamp="1685349616688"/>
     <typeInfo handle="=SpringAppTestJunit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SpringAppTestJunit.model{User.java[User" modifiers="1" timestamp="1685436403628"/>
     <typeInfo handle="=SpringAppTestJunit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SpringAppTestJunit.model{Product.java[Product" modifiers="1" timestamp="1685443610580"/>
+    <typeInfo handle="=GodfathersPizza/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.epicode.GodfathersPizza.model{Ordine.java[Ordine" modifiers="1" timestamp="1685529392313"/>
 </typeInfoHistroy>
