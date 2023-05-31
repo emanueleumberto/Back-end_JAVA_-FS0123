@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 import com.epicode.GodfathersPizza.model.Drink;
 import com.epicode.GodfathersPizza.model.DrinkLemonade;
@@ -34,7 +35,7 @@ public class MenuConfiguration {
 		m.getMenuPizza().add(pizzaMargherita());
 		m.getMenuPizza().add(pizzaHawaiian());
 		m.getMenuPizza().add(pizzaSalami());
-		m.getMenuPizza().add(pizzaFamilySize(pizzaMargherita()));
+		m.getMenuPizza().add(pizzaFamilySize());
 		
 		m.getMenuDrink().add(drinkLemonade());
 		m.getMenuDrink().add(drinkWater());
@@ -65,8 +66,14 @@ public class MenuConfiguration {
 	}
 	
 	@Bean
-	public PizzaFamilySize pizzaFamilySize(Pizza p) {
+	@Scope("prototype")
+	public PizzaFamilySize pizzaFamilySizePizza(Pizza p) {
 		return new PizzaFamilySize(p);
+	}
+	
+	@Bean
+	public PizzaFamilySize pizzaFamilySize() {
+		return new PizzaFamilySize();
 	}
 	
 	@Bean

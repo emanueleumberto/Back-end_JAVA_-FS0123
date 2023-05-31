@@ -16,10 +16,18 @@ public class PizzaFamilySize extends Pizza  {
 
 	public PizzaFamilySize(Pizza pizza) {
 		super();
+		this.name = "Family Size for Pizza (" + pizza.getName() + ") ";
+		this.price = pizza.getPrice() + 4.15;
+		this.calories = pizza.getCalories() * 1.95;
+		this.pizza = pizza;
+	}
+	
+	public PizzaFamilySize() {
+		super();
 		this.name = "Family Size for Pizza";
 		this.price = 4.15;
 		this.calories = 1.95;
-		this.pizza = pizza;
+		this.pizza = null;
 	}
 	
 	public String getMenuItemLine() {

@@ -15,8 +15,6 @@ public class OrdineConfiguration {
 	
 	@Value("${GodfathersPizza.costocoperto}") private Double costoCoperto;
 	
-	;
-	
 	@Bean
 	@Scope("prototype")
 	public Tavolo tavolo(int numeroTavolo, int numeroCoperti) {
@@ -26,7 +24,12 @@ public class OrdineConfiguration {
 	@Bean
 	@Scope("prototype")
 	public Ordine ordine(int numeroOrdine, Tavolo tavolo, int numeroCoperti) {
-		return new Ordine(numeroOrdine, tavolo, numeroCoperti, costoCoperto);
+		try {
+			return new Ordine(numeroOrdine, tavolo, numeroCoperti, costoCoperto);
+		} catch (Exception e) {
+			return null;
+		}
+		
 	}
 
 }
