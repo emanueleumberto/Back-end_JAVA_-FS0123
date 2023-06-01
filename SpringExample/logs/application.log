@@ -1,108 +1,15 @@
-17:34:53.793 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 26300 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:34:53.798 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:34:53.859 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:34:54.468 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:34:54.484 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 1.122 seconds (process running for 1.825)
-17:45:30.714 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 11680 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:45:30.719 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:45:30.766 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:45:31.240 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:45:31.260 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.924 seconds (process running for 1.574)
-17:45:31.265 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-17:45:31.322 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
-	at com.example.project.SpringExampleApplication.main(SpringExampleApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.beans.factory.ObjectProvider.getObject()" because "this.userFakeProvider" is null
-	at com.example.project.service.UserService.createFakeUser(UserService.java:16)
-	at com.example.project.runner.UserRunner.run(UserRunner.java:21)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
-	... 10 common frames omitted
-17:48:44.751 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 3192 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:48:44.781 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:48:44.815 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:48:45.295 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:48:45.311 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.893 seconds (process running for 1.532)
-17:48:45.315 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-17:48:45.334 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
-	at com.example.project.SpringExampleApplication.main(SpringExampleApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.beans.factory.ObjectProvider.getObject()" because "this.userFakeProvider" is null
-	at com.example.project.service.UserService.createFakeUser(UserService.java:16)
-	at com.example.project.runner.UserRunner.run(UserRunner.java:17)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
-	... 10 common frames omitted
-17:49:53.193 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 22752 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:49:53.197 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:49:53.243 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:49:53.704 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:49:53.718 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.86 seconds (process running for 1.465)
-17:49:53.721 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-17:49:53.741 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
-	at com.example.project.SpringExampleApplication.main(SpringExampleApplication.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.beans.factory.ObjectProvider.getObject()" because "this.userFakeProvider" is null
-	at com.example.project.service.UserService.createFakeUser(UserService.java:16)
-	at com.example.project.runner.UserRunner.run(UserRunner.java:17)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
-	... 10 common frames omitted
-17:50:56.690 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 12960 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:50:56.727 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:50:56.768 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:50:57.264 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:50:57.281 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.928 seconds (process running for 1.523)
-17:52:54.300 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 15308 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:52:54.332 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:52:54.376 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:52:54.848 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:52:54.867 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.905 seconds (process running for 1.502)
-17:54:44.442 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 26552 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:54:44.445 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:54:44.486 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:54:45.003 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:54:45.021 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.95 seconds (process running for 1.568)
-17:55:14.670 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 2008 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-17:55:14.673 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-17:55:14.713 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-17:55:15.221 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-17:55:15.240 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.91 seconds (process running for 1.476)
-18:02:47.312 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 24728 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
-18:02:47.345 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
-18:02:47.384 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:02:47.890 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-18:02:47.907 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.944 seconds (process running for 1.595)
+10:19:41.573 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 30604 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
+10:19:41.585 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+10:19:41.635 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:19:42.335 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:19:42.359 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 1.245 seconds (process running for 2.408)
+10:21:56.043 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 17460 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
+10:21:56.045 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+10:21:56.097 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:21:56.594 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:21:56.614 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 0.934 seconds (process running for 1.615)
+11:05:39.667 [restartedMain] INFO  c.e.project.SpringExampleApplication - Starting SpringExampleApplication using Java 17.0.2 with PID 28372 (C:\Users\emau7\workspace-Epicode_FS0123\SpringExample\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringExample)
+11:05:39.715 [restartedMain] INFO  c.e.project.SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+11:05:39.755 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:05:40.311 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:05:40.331 [restartedMain] INFO  c.e.project.SpringExampleApplication - Started SpringExampleApplication in 1.029 seconds (process running for 1.759)

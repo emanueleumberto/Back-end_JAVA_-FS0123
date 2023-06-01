@@ -24,6 +24,7 @@ public class DbConnection {
 		conn = DriverManager.getConnection(url+dbName, user, pass);
 		st = conn.createStatement();
 		System.out.println("DB Connesso!!");
+		
 	}
 	
 	public void insertStudent(Studenti s) throws SQLException {
