@@ -10,4 +10,5 @@
     <typeInfo handle="=SpringAppTestJunit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SpringAppTestJunit.model{User.java[User" modifiers="1" timestamp="1685436403628"/>
     <typeInfo handle="=SpringAppTestJunit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SpringAppTestJunit.model{Product.java[Product" modifiers="1" timestamp="1685443610580"/>
     <typeInfo handle="=GodfathersPizza/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.epicode.GodfathersPizza.model{Ordine.java[Ordine" modifiers="1" timestamp="1685531553972"/>
+    <typeInfo handle="=SpringDataJDBC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.project.repository{UserDaoRepository.java[UserDaoRepository" modifiers="513" timestamp="1685608026804"/>
 </typeInfoHistroy>
