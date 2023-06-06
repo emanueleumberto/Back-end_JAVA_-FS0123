@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
@@ -14,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import jakarta.websocket.server.PathParam;
 
 @Controller
+@RequestMapping("/api") 
 public class PageController {
 	
 	@GetMapping("/home")
@@ -54,7 +56,7 @@ public class PageController {
 	
 	@GetMapping("/page4/{fullname}/{city}")
 	public ModelAndView getPage(@PathVariable String fullname, @PathVariable String city) {
-		String page = "pageThymeleaf";
+		String page = fullname != "" ? "pageThymeleaf" : "errorPage";
 		ModelAndView model = new ModelAndView(page);
 		model.addObject("fullname", fullname);
 		model.addObject("city", city);
