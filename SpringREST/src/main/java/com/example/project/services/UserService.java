@@ -9,11 +9,17 @@ import com.example.project.repository.UserRepository;
 @Service
 public class UserService {
 	
+	// Inject UserRepository
 	@Autowired UserRepository userRepo;
 	
 	public String registerUser(User user) {
 		userRepo.save(user);
 		return "User: " + user.getName() + " " + user.getLastname() + " salvato nel DB!!!";
+	}
+	
+	public String loginUser(User user) {
+		User u = userRepo.findByEmailAndPassword(user.getEmail(), user.getPassword());
+		return "User: " + u.getName() + " " + u.getLastname() + " Logged!!!";
 	}
 
 }
