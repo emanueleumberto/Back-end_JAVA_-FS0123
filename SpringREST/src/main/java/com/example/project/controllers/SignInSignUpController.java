@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.example.project.models.User;
 import com.example.project.services.UserService;
 
-@Controller
+
 public class SignInSignUpController {
 	
 	// Inject UserService
