@@ -19,9 +19,26 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.project.model.User;
 import com.example.project.service.UserService;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.info.License;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.persistence.EntityExistsException;
 import jakarta.persistence.EntityNotFoundException;
 
+@OpenAPIDefinition(
+        info = @Info(
+                 title = "API personas", 
+                 description = "Este es un ejemplo de servidor Personas-Server."
+            + "Usted puyede encontrar mas acerca de Swagger " + "[http://swagger.io](http://swagger.io) o en "
+            + "[irc.freenode.net, #swagger](http://swagger.io/irc/).",
+            termsOfService = "http://swagger.io/terms/", 
+              license = @License(
+                          name = "Apache 2.0", 
+                          url = "http://springdoc.org"), 
+       version = "otra"
+    ))
+    @Tag(name = "persona", description = "API para personas")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -37,6 +54,7 @@ public class UserController {
 	
 	@GetMapping("/page")
 	public ResponseEntity<Page<User>> getPageableAllUser(Pageable pageable) {
+		//http://localhost:8080/api/users/page?size=2&page=2&sort=name,ASC
 		return ResponseEntity.ok(userService.getPageableAll(pageable));
 	}
 	

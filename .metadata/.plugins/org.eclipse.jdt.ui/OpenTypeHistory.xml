@@ -11,4 +11,5 @@
     <typeInfo handle="=SpringAppTestJunit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.SpringAppTestJunit.model{Product.java[Product" modifiers="1" timestamp="1685443610580"/>
     <typeInfo handle="=GodfathersPizza/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.epicode.GodfathersPizza.model{Ordine.java[Ordine" modifiers="1" timestamp="1685531553972"/>
     <typeInfo handle="=SpringDataJDBC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.project.repository{UserDaoRepository.java[UserDaoRepository" modifiers="513" timestamp="1685608026804"/>
+    <typeInfo handle="=SpringREST-Full/C:\/Users\/emau7\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.1.0\/spring-data-jpa-3.1.0.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.1.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1685612455634"/>
 </typeInfoHistroy>
