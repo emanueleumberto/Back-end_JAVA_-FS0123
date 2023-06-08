@@ -3883,3 +3883,12 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 18:08:16.650 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
 18:08:16.684 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 18:08:16.692 [restartedMain] INFO  c.e.p.SpringPrenotazioniAziendaliApplication - Started SpringPrenotazioniAziendaliApplication in 4.586 seconds (process running for 5.299)
+18:08:38.741 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:08:38.742 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:08:38.743 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:33:18.391 [RMI TCP Connection(34)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:33:18.401 [RMI TCP Connection(34)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18:33:18.403 [RMI TCP Connection(34)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18:33:18.408 [RMI TCP Connection(34)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:33:18.410 [RMI TCP Connection(34)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:33:18.413 [RMI TCP Connection(34)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

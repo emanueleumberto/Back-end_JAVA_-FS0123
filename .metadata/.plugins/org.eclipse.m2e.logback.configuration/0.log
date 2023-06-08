@@ -7752,3 +7752,309 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 2023-06-07 18:07:52,191 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringPrenotazioniAziendali\src\test\resources
 2023-06-07 18:08:01,704 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-06-07 18:08:01,713 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:08:01,721 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringPrenotazioniAziendali\src\test\resources
+2023-06-07 18:21:46,996 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:46,997 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:46,999 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringPrenotazioniAziendali\src\test\resources
+2023-06-07 18:21:47,015 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:47,015 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:47,017 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringREST-Full\src\test\resources
+2023-06-07 18:21:48,060 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:48,060 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:21:48,062 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringPrenotazioniAziendali\src\test\resources
+2023-06-07 18:22:17,379 [Worker-69: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gestione.prenotazioni.aziendali:W04-FinalProject:0.0.1-SNAPSHOT @ C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\pom.xml.
+2023-06-07 18:22:17,883 [Worker-69: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /W04-FinalProject/src/main/java
+2023-06-07 18:22:17,883 [Worker-69: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /W04-FinalProject/src/main/resources
+2023-06-07 18:22:17,896 [Worker-69: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /W04-FinalProject/src/main/resources
+2023-06-07 18:22:17,909 [Worker-69: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /W04-FinalProject/src/test/java
+2023-06-07 18:22:18,546 [Worker-69: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2023-06-07 18:22:19,262 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.5.7.Final/hibernate-core-5.5.7.Final-sources.jar
+2023-06-07 18:22:19,390 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:22:19,396 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:22:19,398 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:22:21,309 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.5.7.Final/hibernate-core-5.5.7.Final-sources.jar
+2023-06-07 18:22:21,322 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.5.7.Final
+2023-06-07 18:22:21,745 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:22:21,745 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:22:21,749 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:24:10,324 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:24:10,330 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:24:10,332 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:06,592 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:06,598 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:06,600 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:21,721 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:21,724 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:21,727 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:31,836 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:31,844 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:31,848 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:38,319 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:38,325 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:38,327 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:45,708 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:45,719 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:45,722 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:25:57,796 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:25:57,800 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:25:57,802 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:27:02,212 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:27:02,216 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:27:02,219 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:27:05,445 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:27:05,450 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:27:05,453 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:27:08,743 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:27:08,747 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:27:08,749 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:27:30,678 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:27:30,683 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:27:30,685 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:27:42,970 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:27:42,973 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:27:42,975 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:28:01,103 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:28:01,140 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:28:01,142 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:28:50,399 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:28:50,413 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:28:50,416 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:29:26,613 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:29:26,617 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:29:26,620 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:29:29,074 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:29:29,081 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:29:29,083 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:29:51,387 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:29:51,394 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:29:51,396 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:29:52,541 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:29:52,543 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:29:52,546 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:30:14,268 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:30:14,276 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:30:14,278 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:30:41,076 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:30:41,082 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:30:41,085 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:30:52,956 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:30:52,963 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:30:52,965 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:31:07,473 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:31:07,477 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:31:07,479 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:31:10,918 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:31:10,922 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:31:10,924 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:31:32,446 [Worker-74: Launching Executing clean in C__Users_emau7_Desktop_CorrezioneProgetti_Progetti-Java-main_Progetti-Java-main_W04-FinalProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject
+2023-06-07 18:31:32,447 [Worker-74: Launching Executing clean in C__Users_emau7_Desktop_CorrezioneProgetti_Progetti-Java-main_Progetti-Java-main_W04-FinalProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always clean
+2023-06-07 18:31:34,532 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:31:34,538 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:31:34,540 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:31:42,762 [Worker-70: Launching Executing install in C__Users_emau7_Desktop_CorrezioneProgetti_Progetti-Java-main_Progetti-Java-main_W04-FinalProject] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject
+2023-06-07 18:31:42,762 [Worker-70: Launching Executing install in C__Users_emau7_Desktop_CorrezioneProgetti_Progetti-Java-main_Progetti-Java-main_W04-FinalProject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2023-06-07 18:31:52,914 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:31:52,918 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:31:52,920 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:32:56,294 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gestione.prenotazioni.aziendali:W04-FinalProject:0.0.1-SNAPSHOT @ C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\pom.xml.
+2023-06-07 18:32:56,812 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:32:56,812 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:32:56,815 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-07 18:32:57,273 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-07 18:32:57,280 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-07 18:32:57,284 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\Desktop\CorrezioneProgetti\Progetti-Java-main\Progetti-Java-main\W04-FinalProject\src\test\resources
+2023-06-08 08:58:21,984 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-08 10:36:56,769 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.epicode:SpringSecurityProject:0.0.1-SNAPSHOT @ C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\pom.xml.
+2023-06-08 10:36:57,453 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.pom
+2023-06-08 10:36:57,518 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.pom
+2023-06-08 10:36:57,566 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.pom
+2023-06-08 10:36:57,632 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.pom
+2023-06-08 10:36:57,679 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.pom
+2023-06-08 10:36:57,735 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.pom
+2023-06-08 10:36:57,831 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.pom
+2023-06-08 10:36:57,878 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.pom
+2023-06-08 10:36:57,925 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.pom
+2023-06-08 10:36:57,970 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.pom
+2023-06-08 10:36:58,031 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0.pom
+2023-06-08 10:36:58,089 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0.pom
+2023-06-08 10:36:58,296 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0.pom
+2023-06-08 10:36:58,341 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0.pom
+2023-06-08 10:36:58,424 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.jar
+2023-06-08 10:36:58,498 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.jar
+2023-06-08 10:36:58,498 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0.jar
+2023-06-08 10:36:58,498 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.jar
+2023-06-08 10:36:58,498 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0.jar
+2023-06-08 10:36:58,675 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0.jar
+2023-06-08 10:36:58,676 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0.jar
+2023-06-08 10:36:58,839 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.jar
+2023-06-08 10:36:58,839 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.jar
+2023-06-08 10:36:58,906 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0.jar
+2023-06-08 10:36:59,257 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0.jar
+2023-06-08 10:36:59,320 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0.jar
+2023-06-08 10:36:59,566 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0.jar
+2023-06-08 10:36:59,671 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0.jar
+2023-06-08 10:37:00,831 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityProject/src/main/java
+2023-06-08 10:37:00,833 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityProject/src/main/resources
+2023-06-08 10:37:00,859 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityProject/src/main/resources
+2023-06-08 10:37:00,882 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityProject/src/test/java
+2023-06-08 10:37:01,549 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0-sources.jar
+2023-06-08 10:37:01,606 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.1.0/spring-boot-starter-security-3.1.0-sources.jar
+2023-06-08 10:37:01,628 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.1.0
+2023-06-08 10:37:01,734 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0-sources.jar
+2023-06-08 10:37:02,112 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2023-06-08 10:37:02,116 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-08 10:37:02,223 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.1.0/spring-security-config-6.1.0-sources.jar
+2023-06-08 10:37:02,248 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:6.1.0
+2023-06-08 10:37:03,313 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0-sources.jar
+2023-06-08 10:37:03,666 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.epicode:SpringSecurityProject:0.0.1-SNAPSHOT @ C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\pom.xml.
+2023-06-08 10:37:03,669 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.1.0/spring-security-web-6.1.0-sources.jar
+2023-06-08 10:37:03,698 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:6.1.0
+2023-06-08 10:37:03,817 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0-sources.jar
+2023-06-08 10:37:03,883 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.0/spring-boot-starter-validation-3.1.0-sources.jar
+2023-06-08 10:37:03,912 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.1.0
+2023-06-08 10:37:04,020 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0-sources.jar
+2023-06-08 10:37:04,099 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-test/6.1.0/spring-security-test-6.1.0-sources.jar
+2023-06-08 10:37:04,133 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-test:6.1.0
+2023-06-08 10:37:04,238 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0-sources.jar
+2023-06-08 10:37:04,479 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.1.0/spring-security-core-6.1.0-sources.jar
+2023-06-08 10:37:04,501 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:6.1.0
+2023-06-08 10:37:04,607 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0-sources.jar
+2023-06-08 10:37:04,699 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.1.0/spring-security-crypto-6.1.0-sources.jar
+2023-06-08 10:37:04,725 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.1.0
+2023-06-08 10:37:04,774 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityProject/src/main/java
+2023-06-08 10:37:04,775 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityProject/src/main/resources
+2023-06-08 10:37:04,775 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringSecurityProject/src/main/resources
+2023-06-08 10:37:04,776 [Worker-39: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringSecurityProject/src/test/java
+2023-06-08 10:37:05,460 [Worker-39: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-06-08 10:37:07,265 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:37:07,297 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:37:07,303 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:44:17,846 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:44:17,872 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:44:17,878 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:44:33,137 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:44:33,152 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:44:33,156 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:01,874 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:01,966 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:01,973 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:30,847 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:30,894 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:30,900 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:38,878 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:38,955 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:38,964 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:44,187 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:44,222 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:44,226 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:50,289 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:50,298 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:50,303 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:49:57,570 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:49:57,580 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:49:57,591 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:02,038 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:02,050 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:02,056 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:08,830 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:08,840 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:08,845 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:20,777 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:20,794 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:20,800 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:26,371 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:26,379 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:26,384 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:33,512 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:33,520 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:33,525 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:37,881 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:37,891 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:37,895 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:41,462 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:41,470 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:41,477 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:45,595 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:45,606 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:45,612 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:51,802 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:51,814 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:51,821 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:50:55,722 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:50:55,728 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:50:55,756 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:00,463 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:00,471 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:00,475 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:06,304 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:06,313 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:06,316 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:13,419 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:13,427 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:13,431 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:20,292 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:20,304 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:20,311 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:26,969 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:26,976 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:26,982 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:33,676 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:33,686 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:33,695 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:51:37,953 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:51:37,962 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:51:37,966 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:52:13,337 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:52:13,348 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:52:13,353 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:53:14,925 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:53:14,932 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:53:14,936 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:53:24,633 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:53:24,671 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:53:24,678 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:53:42,474 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:53:42,486 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:53:42,493 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:54:01,108 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:54:01,116 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:54:01,120 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:54:35,061 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:54:35,071 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:54:35,074 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:54:51,959 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:54:51,967 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:54:51,970 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:55:49,252 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:55:49,290 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:55:49,296 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:56:06,865 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:56:06,874 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:56:06,880 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:56:44,667 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:56:44,674 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:56:44,677 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:57:41,019 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:57:41,028 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:57:41,031 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:58:52,188 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.epicode:SpringSecurityProject:0.0.1-SNAPSHOT @ C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\pom.xml.
+2023-06-08 10:58:53,204 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:58:53,205 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:58:53,209 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 10:58:55,310 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 10:58:55,330 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 10:58:55,333 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 11:02:35,970 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 11:02:35,980 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 11:02:35,983 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 11:04:12,129 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 11:04:12,143 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 11:04:12,155 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 11:06:09,526 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 11:06:09,540 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 11:06:09,549 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 11:07:06,331 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 11:07:06,342 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-08 11:07:06,345 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\src\test\resources
+2023-06-08 11:12:19,306 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-08 11:12:19,321 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
