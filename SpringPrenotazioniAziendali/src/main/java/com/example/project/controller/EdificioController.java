@@ -2,6 +2,7 @@ package com.example.project.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,16 +32,19 @@ public class EdificioController {
 	}
 	
 	@PostMapping
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<?> save(@RequestBody Edificio edificio) {
 		return ResponseEntity.ok(edificioService.createEdificio(edificio));
 	}
 	
 	@PutMapping("/{id}")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<?> update(@PathVariable Long id, @RequestBody Edificio edificio) {
 		return ResponseEntity.ok(edificioService.updateEdificio(id, edificio));
 	}
 	
 	@DeleteMapping("/{id}")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<?> remove(@PathVariable Long id) {
 		return ResponseEntity.ok(edificioService.removeEdificio(id));
 	}

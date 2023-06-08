@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.example.project.repository.ProductRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="com.example.project.services.ProductService"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
-    <fullyQualifiedTypeName name="com.example.project.models.Product"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpStatusCode"/>
-    <fullyQualifiedTypeName name="com.example.project.repository.UserDAORepository"/>
-    <fullyQualifiedTypeName name="com.example.project.service.UserService"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.EntityNotFoundException"/>
-    <fullyQualifiedTypeName name="org.springframework.data.repository.PagingAndSortingRepository"/>
-    <fullyQualifiedTypeName name="com.example.project.model.User"/>
     <fullyQualifiedTypeName name="com.example.project.repository.UserPageableRepository"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.OpenAPIDefinition"/>
@@ -31,7 +16,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="com.example.project.models.Edificio"/>
     <fullyQualifiedTypeName name="com.gestione.prenotazioni.aziendali.enumemation.TipoPostazione"/>
+    <fullyQualifiedTypeName name="com.epicode.project.security.JwtAuthenticationEntryPoint"/>
+    <fullyQualifiedTypeName name="com.epicode.project.security.JwtAuthenticationFilter"/>
+    <fullyQualifiedTypeName name="com.epicode.project.security.JwtTokenProvider"/>
+    <fullyQualifiedTypeName name="com.epicode.project.payload.JWTAuthResponse"/>
+    <fullyQualifiedTypeName name="com.epicode.project.payload.ErrorDetails"/>
+    <fullyQualifiedTypeName name="com.epicode.project.repository.RoleRepository"/>
+    <fullyQualifiedTypeName name="com.epicode.project.service.AuthService"/>
+    <fullyQualifiedTypeName name="com.epicode.project.entity.Role"/>
+    <fullyQualifiedTypeName name="com.epicode.project.entity.ERole"/>
+    <fullyQualifiedTypeName name="com.epicode.project.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.epicode.project.entity.User"/>
+    <fullyQualifiedTypeName name="com.epicode.project.exception.MyAPIException"/>
+    <fullyQualifiedTypeName name="com.epicode.project.payload.LoginDto"/>
+    <fullyQualifiedTypeName name="com.epicode.project.payload.RegisterDto"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
 </qualifiedTypeNameHistroy>

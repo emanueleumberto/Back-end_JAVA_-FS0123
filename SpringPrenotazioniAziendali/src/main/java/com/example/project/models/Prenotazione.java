@@ -2,6 +2,8 @@ package com.example.project.models;
 
 import java.time.LocalDate;
 
+import com.example.project.security.entity.User;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Enumerated;
@@ -33,6 +35,6 @@ public class Prenotazione {
 	private Postazione postazione;
 	
 	@ManyToOne
-	private Utente utente;
+	private User utente;
 
 }
