@@ -205,3 +205,902 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ap
 11:12:20.557 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 11:12:20.558 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
 11:12:20.561 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+11:12:20.674 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+11:12:20.675 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+11:12:20.905 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:12:20.928 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+11:12:21.097 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:12:21.098 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:12:21.098 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:12:21.125 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:12:21.125 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 448 ms
+11:12:21.212 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:12:21.222 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:12:21.222 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:12:21.223 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+11:12:21.311 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@de58f29
+11:12:21.312 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+11:12:21.322 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@9191047
+11:12:21.337 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:12:21.373 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:12:21.467 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:12:21.657 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:12:21.845 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22bdf009, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@726d9726, org.springframework.security.web.context.SecurityContextHolderFilter@6391a49c, org.springframework.security.web.header.HeaderWriterFilter@6e8c1cb0, org.springframework.web.filter.CorsFilter@64fe0a28, org.springframework.security.web.authentication.logout.LogoutFilter@4518ebc3, com.epicode.project.security.JwtAuthenticationFilter@2e812745, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b90b01c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45f74c42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55aca7ee, org.springframework.security.web.session.SessionManagementFilter@38c31129, org.springframework.security.web.access.ExceptionTranslationFilter@31633953, org.springframework.security.web.access.intercept.AuthorizationFilter@9b71a9b]
+11:12:21.911 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:12:21.980 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:12:21.998 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:12:22.004 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.37 seconds (process running for 365.097)
+11:12:22.005 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:38:35.182 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:38:35.193 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:38:35.195 [Thread-11] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+11:38:35.198 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:38:35.198 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+11:38:35.200 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+11:38:35.300 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+11:38:35.301 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+11:38:35.517 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:38:35.545 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+11:38:35.696 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:38:35.696 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:38:35.696 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:38:35.728 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:38:35.728 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 425 ms
+11:38:35.799 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:38:35.806 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:38:35.807 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:38:35.808 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+11:38:35.878 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@232ca43f
+11:38:35.880 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+11:38:35.888 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@777927b7
+11:38:35.901 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:38:35.936 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:38:36.023 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:38:36.182 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:38:36.356 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66db08b3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f04dd6e, org.springframework.security.web.context.SecurityContextHolderFilter@213ee033, org.springframework.security.web.header.HeaderWriterFilter@294f2dbb, org.springframework.web.filter.CorsFilter@3b072db2, org.springframework.security.web.authentication.logout.LogoutFilter@ff04ce3, com.epicode.project.security.JwtAuthenticationFilter@4748369e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c7e33ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c0cf53e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64f08ca7, org.springframework.security.web.session.SessionManagementFilter@47d7e4da, org.springframework.security.web.access.ExceptionTranslationFilter@507fa241, org.springframework.security.web.access.intercept.AuthorizationFilter@259f56fb]
+11:38:36.404 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:38:36.499 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:38:36.513 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:38:36.523 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.271 seconds (process running for 1939.617)
+11:38:36.525 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:40:53.196 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:40:53.205 [Thread-15] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:40:53.207 [Thread-15] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+11:40:53.209 [Thread-15] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:40:53.210 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+11:40:53.213 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+11:40:53.323 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+11:40:53.323 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+11:40:53.518 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:40:53.536 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+11:40:53.652 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:40:53.652 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:40:53.652 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:40:53.673 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:40:53.673 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 348 ms
+11:40:53.725 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:40:53.732 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:40:53.732 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:40:53.733 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+11:40:53.797 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@1315b558
+11:40:53.798 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+11:40:53.806 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@11b48d20
+11:40:53.818 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:40:53.847 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:40:53.910 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:40:54.078 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:40:54.217 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a3b3738, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26a66d5, org.springframework.security.web.context.SecurityContextHolderFilter@5d383309, org.springframework.security.web.header.HeaderWriterFilter@5839ff59, org.springframework.web.filter.CorsFilter@30d9d74, org.springframework.security.web.authentication.logout.LogoutFilter@48521b79, com.epicode.project.security.JwtAuthenticationFilter@12a7cf24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36b6f59f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21e20727, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@640f002d, org.springframework.security.web.session.SessionManagementFilter@17bc48ad, org.springframework.security.web.access.ExceptionTranslationFilter@64e1f089, org.springframework.security.web.access.intercept.AuthorizationFilter@78a3f8c0]
+11:40:54.268 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:40:54.333 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:40:54.349 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:40:54.354 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.09 seconds (process running for 2077.448)
+11:40:54.357 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:42:19.741 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:42:19.752 [Thread-19] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:42:19.754 [Thread-19] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+11:42:19.756 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:42:19.756 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+11:42:19.759 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+11:42:19.881 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+11:42:19.881 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+11:42:20.077 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:42:20.093 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+11:42:20.211 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:42:20.212 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:42:20.212 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:42:20.237 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:42:20.237 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 354 ms
+11:42:20.288 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:42:20.294 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:42:20.294 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:42:20.295 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+11:42:20.362 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@39e7dd
+11:42:20.362 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+11:42:20.374 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@324dced3
+11:42:20.384 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:42:20.411 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:42:20.483 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:42:20.627 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:42:20.776 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@338481a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22959e0, org.springframework.security.web.context.SecurityContextHolderFilter@133d9a07, org.springframework.security.web.header.HeaderWriterFilter@30478f63, org.springframework.web.filter.CorsFilter@3567cf6c, org.springframework.security.web.authentication.logout.LogoutFilter@661ce19c, com.epicode.project.security.JwtAuthenticationFilter@a1399a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4803e910, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44335be4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48dc894f, org.springframework.security.web.session.SessionManagementFilter@4093ae74, org.springframework.security.web.access.ExceptionTranslationFilter@4e42b4e4, org.springframework.security.web.access.intercept.AuthorizationFilter@6f324e89]
+11:42:20.827 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:42:20.893 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:42:20.909 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:42:20.914 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.096 seconds (process running for 2164.008)
+11:42:20.917 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:45:47.113 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:45:47.122 [Thread-23] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:45:47.125 [Thread-23] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-6 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+11:45:47.128 [Thread-23] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:45:47.128 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+11:45:47.131 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+11:45:47.214 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+11:45:47.214 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+11:45:47.404 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:45:47.424 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+11:45:47.531 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:45:47.531 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:45:47.532 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:45:47.552 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:45:47.552 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 336 ms
+11:45:47.609 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:45:47.617 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:45:47.617 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:45:47.617 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+11:45:47.685 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@21d2e705
+11:45:47.685 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+11:45:47.694 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@505d16d8
+11:45:47.704 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:45:47.739 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:45:47.814 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:45:47.964 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:45:48.137 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39c9f5e9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bc64db9, org.springframework.security.web.context.SecurityContextHolderFilter@56681dab, org.springframework.security.web.header.HeaderWriterFilter@5a391ce7, org.springframework.web.filter.CorsFilter@4e86265c, org.springframework.security.web.authentication.logout.LogoutFilter@26b89aab, com.epicode.project.security.JwtAuthenticationFilter@6716c67f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dada73b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fe14a4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a3c2bbe, org.springframework.security.web.session.SessionManagementFilter@1c206ea7, org.springframework.security.web.access.ExceptionTranslationFilter@2f1886c3, org.springframework.security.web.access.intercept.AuthorizationFilter@536afa88]
+11:45:48.190 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:45:48.251 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:45:48.264 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:45:48.269 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.088 seconds (process running for 2371.363)
+11:45:48.271 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:01:19.358 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:01:19.359 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:01:19.361 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:03:40.827 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.epicode.project.exception.MyAPIException: Username is already exists!.]
+12:04:09.576 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.epicode.project.exception.MyAPIException: Email is already exists!.]
+12:08:27.162 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:08:27.171 [Thread-27] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:08:27.172 [Thread-27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:08:27.175 [Thread-27] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-7 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:08:27.178 [Thread-27] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:08:27.179 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+12:08:27.182 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+12:08:27.295 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:08:27.296 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:08:27.497 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:08:27.516 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+12:08:27.653 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:08:27.653 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:08:27.653 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:08:27.676 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:08:27.676 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 378 ms
+12:08:27.740 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:08:27.750 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:08:27.750 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:08:27.751 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+12:08:27.818 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@27571145
+12:08:27.818 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+12:08:27.829 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1b1e6299
+12:08:27.842 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:08:27.876 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:08:27.954 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:08:28.127 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:08:28.298 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51a82565, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@489d20c1, org.springframework.security.web.context.SecurityContextHolderFilter@1d3bee74, org.springframework.security.web.header.HeaderWriterFilter@51686f35, org.springframework.web.filter.CorsFilter@c769af8, org.springframework.security.web.authentication.logout.LogoutFilter@3760128f, com.epicode.project.security.JwtAuthenticationFilter@49de939b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1735ed8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@536299b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6313f1ec, org.springframework.security.web.session.SessionManagementFilter@535374cf, org.springframework.security.web.access.ExceptionTranslationFilter@18a244d8, org.springframework.security.web.access.intercept.AuthorizationFilter@2609307a]
+12:08:28.351 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:08:28.428 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:08:28.449 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:08:28.453 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.2 seconds (process running for 3731.547)
+12:08:28.454 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:10:34.893 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:10:34.903 [Thread-31] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:10:34.905 [Thread-31] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-8 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:10:34.909 [Thread-31] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:10:34.909 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+12:10:34.911 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+12:10:35.029 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:10:35.030 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:10:35.232 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:10:35.249 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+12:10:35.375 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:10:35.376 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:10:35.376 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:10:35.400 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:10:35.400 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 368 ms
+12:10:35.454 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:10:35.462 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:10:35.462 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:10:35.463 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+12:10:35.526 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@42f3cd76
+12:10:35.526 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+12:10:35.537 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@625b166e
+12:10:35.548 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:10:35.575 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:10:35.657 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:10:35.801 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:10:35.944 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2bc1f4a0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7424608e, org.springframework.security.web.context.SecurityContextHolderFilter@7e8799b1, org.springframework.security.web.header.HeaderWriterFilter@379dc378, org.springframework.web.filter.CorsFilter@405de7ad, org.springframework.security.web.authentication.logout.LogoutFilter@51a1c37d, com.epicode.project.security.JwtAuthenticationFilter@19397c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12b4b103, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4beb362e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@263bd3c4, org.springframework.security.web.session.SessionManagementFilter@7ce48fd4, org.springframework.security.web.access.ExceptionTranslationFilter@111fa81a, org.springframework.security.web.access.intercept.AuthorizationFilter@74e25c4e]
+12:10:35.994 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:10:36.071 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:10:36.089 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:10:36.094 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.117 seconds (process running for 3859.188)
+12:10:36.097 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:19:20.744 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:19:20.744 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:19:20.746 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:19:20.984 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:20:13.407 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:20:13.418 [Thread-35] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:20:13.419 [Thread-35] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:20:13.420 [Thread-35] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-9 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:20:13.423 [Thread-35] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:20:13.423 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+12:20:13.426 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+12:20:13.555 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:20:13.555 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:20:13.791 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:20:13.811 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+12:20:13.945 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:20:13.946 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:20:13.946 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:20:13.971 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:20:13.972 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 414 ms
+12:20:14.026 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:20:14.034 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:20:14.034 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:20:14.035 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+12:20:14.107 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7d094845
+12:20:14.107 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+12:20:14.116 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1fcfe559
+12:20:14.131 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:20:14.163 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:20:14.233 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:20:14.405 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:20:14.572 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@216eb020, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d4eac26, org.springframework.security.web.context.SecurityContextHolderFilter@2cacde10, org.springframework.security.web.header.HeaderWriterFilter@1daa59fd, org.springframework.web.filter.CorsFilter@410f980c, org.springframework.security.web.authentication.logout.LogoutFilter@5b9057ca, com.epicode.project.security.JwtAuthenticationFilter@72030703, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27c49020, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68ee4094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d2cebcc, org.springframework.security.web.session.SessionManagementFilter@611378ef, org.springframework.security.web.access.ExceptionTranslationFilter@1163501d, org.springframework.security.web.access.intercept.AuthorizationFilter@62fbdc95]
+12:20:14.630 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:20:14.715 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:20:14.730 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:20:14.734 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.239 seconds (process running for 4437.829)
+12:20:14.737 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:20:27.720 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:20:27.720 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:20:27.722 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:20:27.837 [http-nio-8080-exec-2] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:20:27.846 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:21:26.805 [http-nio-8080-exec-4] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:21:26.807 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:22:04.664 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:22:04.678 [Thread-39] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:22:04.679 [Thread-39] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:22:04.684 [Thread-39] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-10 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:22:04.687 [Thread-39] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:22:04.688 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+12:22:04.691 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+12:22:04.808 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:22:04.809 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:22:05.012 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:22:05.028 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+12:22:05.138 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:22:05.139 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:22:05.139 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:22:05.162 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:22:05.162 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 351 ms
+12:22:05.207 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:22:05.216 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:05.216 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:22:05.217 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+12:22:05.281 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@5a2f6313
+12:22:05.281 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+12:22:05.291 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@58d94295
+12:22:05.302 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:05.327 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:22:05.396 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:22:05.559 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:22:05.728 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f9c14d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@305cf39e, org.springframework.security.web.context.SecurityContextHolderFilter@17285ae6, org.springframework.security.web.header.HeaderWriterFilter@752b063b, org.springframework.web.filter.CorsFilter@33e5c7cc, org.springframework.security.web.authentication.logout.LogoutFilter@22f7b501, com.epicode.project.security.JwtAuthenticationFilter@333d56ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5833a7b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75046852, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@638d3b6e, org.springframework.security.web.session.SessionManagementFilter@3b072b87, org.springframework.security.web.access.ExceptionTranslationFilter@2c4c6319, org.springframework.security.web.access.intercept.AuthorizationFilter@312c328c]
+12:22:05.776 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:22:05.845 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:22:05.858 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:22:05.861 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.102 seconds (process running for 4548.955)
+12:22:05.862 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:22:12.059 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:22:12.059 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:22:12.060 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:22:12.150 [http-nio-8080-exec-1] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:22:12.157 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:22:28.767 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:22:28.779 [Thread-43] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:22:28.780 [Thread-43] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:22:28.783 [Thread-43] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-11 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:22:28.787 [Thread-43] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:22:28.788 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+12:22:28.789 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+12:22:28.920 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:22:28.921 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:22:29.135 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:22:29.154 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+12:22:29.287 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:22:29.288 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:22:29.288 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:22:29.309 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:22:29.309 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 386 ms
+12:22:29.352 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:22:29.360 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:29.360 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:22:29.361 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+12:22:29.431 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@7167a48e
+12:22:29.431 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+12:22:29.438 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1791ebf4
+12:22:29.449 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:29.473 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:22:29.556 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:22:29.703 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:22:29.869 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@79fa311a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67df100e, org.springframework.security.web.context.SecurityContextHolderFilter@115c80a7, org.springframework.security.web.header.HeaderWriterFilter@63dd8106, org.springframework.web.filter.CorsFilter@64173ff6, org.springframework.security.web.authentication.logout.LogoutFilter@2916f5ae, com.epicode.project.security.JwtAuthenticationFilter@4b419dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d6512, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fc701a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fe4702a, org.springframework.security.web.session.SessionManagementFilter@50e069d9, org.springframework.security.web.access.ExceptionTranslationFilter@5ea9ff29, org.springframework.security.web.access.intercept.AuthorizationFilter@7535d3a5]
+12:22:29.924 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:22:30.017 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:22:30.027 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:22:30.032 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.154 seconds (process running for 4573.126)
+12:22:30.034 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:22:45.798 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:22:45.812 [Thread-47] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:22:45.816 [Thread-47] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-12 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:22:45.819 [Thread-47] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:22:45.820 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+12:22:45.823 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+12:22:45.930 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:22:45.931 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:22:46.172 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:22:46.196 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+12:22:46.362 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:22:46.363 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:22:46.363 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:22:46.398 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:22:46.399 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 466 ms
+12:22:46.475 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:22:46.482 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:46.482 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:22:46.483 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+12:22:46.560 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@6127cd6
+12:22:46.561 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+12:22:46.569 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5858beb7
+12:22:46.584 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:46.616 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:22:46.713 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:22:46.869 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:22:47.017 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61e452bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fd8b150, org.springframework.security.web.context.SecurityContextHolderFilter@1524db20, org.springframework.security.web.header.HeaderWriterFilter@72f9e1d1, org.springframework.web.filter.CorsFilter@52b2c2b9, org.springframework.security.web.authentication.logout.LogoutFilter@34294d7c, com.epicode.project.security.JwtAuthenticationFilter@3d557c24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b7122ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26bbbf38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d1f84a8, org.springframework.security.web.session.SessionManagementFilter@2546539, org.springframework.security.web.access.ExceptionTranslationFilter@61ddf0ca, org.springframework.security.web.access.intercept.AuthorizationFilter@5d6456d9]
+12:22:47.075 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:22:47.140 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:22:47.154 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:22:47.158 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.271 seconds (process running for 4590.252)
+12:22:47.160 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:22:48.583 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:22:48.594 [Thread-51] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:22:48.596 [Thread-51] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-13 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:22:48.596 [Thread-51] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-13 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:22:48.599 [Thread-51] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:22:48.599 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+12:22:48.603 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+12:22:48.756 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:22:48.757 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:22:48.989 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:22:49.016 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+12:22:49.153 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:22:49.154 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:22:49.155 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:22:49.180 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:22:49.180 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 421 ms
+12:22:49.229 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:22:49.238 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:49.238 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:22:49.239 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+12:22:49.311 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-14 - Added connection org.postgresql.jdbc.PgConnection@7168dd88
+12:22:49.311 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+12:22:49.319 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@60f4411f
+12:22:49.329 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:22:49.356 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:22:49.440 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:22:49.602 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:22:49.767 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22044467, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14b6effb, org.springframework.security.web.context.SecurityContextHolderFilter@a5c4216, org.springframework.security.web.header.HeaderWriterFilter@2d8c7d25, org.springframework.web.filter.CorsFilter@5d830688, org.springframework.security.web.authentication.logout.LogoutFilter@4e9f1377, com.epicode.project.security.JwtAuthenticationFilter@16ea69b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e12ae28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60398b9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7119d45c, org.springframework.security.web.session.SessionManagementFilter@4dd172a3, org.springframework.security.web.access.ExceptionTranslationFilter@28519772, org.springframework.security.web.access.intercept.AuthorizationFilter@598ea71b]
+12:22:49.815 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:22:49.883 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:22:49.893 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:22:49.899 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.197 seconds (process running for 4592.994)
+12:22:49.902 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:22:51.998 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:22:51.998 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:22:52.000 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:22:52.095 [http-nio-8080-exec-2] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:22:52.101 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:23:26.096 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:23:26.108 [Thread-55] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:23:26.108 [Thread-55] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:23:26.110 [Thread-55] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-14 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:23:26.113 [Thread-55] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:23:26.114 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+12:23:26.116 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+12:23:26.229 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:23:26.229 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:23:26.446 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:23:26.463 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+12:23:26.567 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:23:26.567 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:23:26.567 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:23:26.596 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:23:26.596 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 364 ms
+12:23:26.643 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:23:26.653 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:23:26.653 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:23:26.654 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+12:23:26.718 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-15 - Added connection org.postgresql.jdbc.PgConnection@3abfa9a1
+12:23:26.718 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+12:23:26.729 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7e8befc9
+12:23:26.746 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:23:26.775 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:23:26.859 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:23:27.006 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:23:27.144 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b22ac00, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52ce21c9, org.springframework.security.web.context.SecurityContextHolderFilter@3f6d68f1, org.springframework.security.web.header.HeaderWriterFilter@341968cd, org.springframework.web.filter.CorsFilter@5be0b54b, org.springframework.security.web.authentication.logout.LogoutFilter@dfc9f22, com.epicode.project.security.JwtAuthenticationFilter@7b0ae954, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44a43a3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b846d64, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77e5a1d7, org.springframework.security.web.session.SessionManagementFilter@51266847, org.springframework.security.web.access.ExceptionTranslationFilter@1d0cd7c6, org.springframework.security.web.access.intercept.AuthorizationFilter@701b9646]
+12:23:27.196 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:23:27.252 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:23:27.265 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:23:27.268 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.085 seconds (process running for 4630.362)
+12:23:27.270 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:23:50.238 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:23:50.238 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:23:50.239 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:23:50.336 [http-nio-8080-exec-2] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:23:50.373 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:24:35.311 [http-nio-8080-exec-4] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:24:35.315 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:25:07.917 [http-nio-8080-exec-6] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:25:07.919 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:25:55.335 [http-nio-8080-exec-8] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:25:55.338 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:26:07.045 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:28:39.242 [http-nio-8080-exec-1] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+12:28:39.244 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:37:55.724 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:37:55.735 [Thread-59] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:37:55.735 [Thread-59] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:37:55.738 [Thread-59] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-15 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:37:55.741 [Thread-59] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:37:55.742 [Thread-59] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
+12:37:55.744 [Thread-59] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
+12:37:55.851 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:37:55.852 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:37:56.070 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:37:56.091 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+12:37:56.300 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:37:56.301 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:37:56.301 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:37:56.341 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:37:56.341 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 485 ms
+12:37:56.421 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:37:56.430 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:37:56.430 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:37:56.431 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
+12:37:56.618 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-16 - Added connection org.postgresql.jdbc.PgConnection@2277f018
+12:37:56.619 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
+12:37:56.627 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@e4db9cf
+12:37:56.658 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:37:56.695 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:37:56.780 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:37:56.930 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:37:57.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39705b9d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78bc1743, org.springframework.security.web.context.SecurityContextHolderFilter@5f76277c, org.springframework.security.web.header.HeaderWriterFilter@d2e2100, org.springframework.web.filter.CorsFilter@304c46d6, org.springframework.security.web.authentication.logout.LogoutFilter@2f0751f, com.epicode.project.security.JwtAuthenticationFilter@784496d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59f6fee0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@252ce2ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@373412d5, org.springframework.security.web.session.SessionManagementFilter@27d01cf8, org.springframework.security.web.access.ExceptionTranslationFilter@3927f436, org.springframework.security.web.access.intercept.AuthorizationFilter@33568537]
+12:37:57.151 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:37:57.231 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:37:57.251 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:37:57.256 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.448 seconds (process running for 5500.35)
+12:37:57.260 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:39:10.584 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:39:10.584 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:39:10.586 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:41:38.095 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Credenziali non valide]
+12:41:48.706 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 176 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
+12:43:40.720 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:43:40.732 [Thread-63] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:43:40.733 [Thread-63] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:43:40.735 [Thread-63] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-16 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:43:40.738 [Thread-63] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:43:40.738 [Thread-63] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
+12:43:40.740 [Thread-63] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+12:43:40.851 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:43:40.852 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:43:41.073 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:43:41.093 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+12:43:41.228 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:43:41.229 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:43:41.229 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:43:41.257 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:43:41.258 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 404 ms
+12:43:41.316 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:43:41.323 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:43:41.323 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:43:41.325 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+12:43:41.394 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@1da8c4a9
+12:43:41.394 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+12:43:41.403 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4f4d7e17
+12:43:41.416 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:43:41.456 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:43:41.535 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:43:41.693 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:43:41.871 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e7c3e04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a3d4969, org.springframework.security.web.context.SecurityContextHolderFilter@b969f52, org.springframework.security.web.header.HeaderWriterFilter@78ed004, org.springframework.web.filter.CorsFilter@f7aaf63, org.springframework.security.web.authentication.logout.LogoutFilter@7d2dd5b1, com.epicode.project.security.JwtAuthenticationFilter@6ee402e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b4cdfd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a333a45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a607b8, org.springframework.security.web.session.SessionManagementFilter@71349466, org.springframework.security.web.access.ExceptionTranslationFilter@4e93c323, org.springframework.security.web.access.intercept.AuthorizationFilter@797e3549]
+12:43:41.920 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:43:41.999 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:43:42.010 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:43:42.014 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.194 seconds (process running for 5845.108)
+12:43:42.018 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:44:08.716 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:44:08.717 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:44:08.718 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:44:08.900 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 176 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
+12:47:32.806 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:47:32.817 [Thread-67] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:47:32.817 [Thread-67] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:47:32.819 [Thread-67] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-17 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:47:32.821 [Thread-67] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:47:32.821 [Thread-67] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown initiated...
+12:47:32.823 [Thread-67] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown completed.
+12:47:32.966 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 400 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:47:32.967 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:47:33.183 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:47:33.202 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+12:47:33.376 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:47:33.377 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:47:33.377 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:47:33.401 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:47:33.401 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 430 ms
+12:47:33.460 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:47:33.467 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:47:33.467 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:47:33.468 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Starting...
+12:47:33.539 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-18 - Added connection org.postgresql.jdbc.PgConnection@7fc44c49
+12:47:33.539 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Start completed.
+12:47:33.548 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@645fa5c5
+12:47:33.560 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:47:33.588 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:47:33.673 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:47:33.846 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:47:34.016 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b704d96, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14966c44, org.springframework.security.web.context.SecurityContextHolderFilter@4c536ad9, org.springframework.security.web.header.HeaderWriterFilter@6d12204f, org.springframework.web.filter.CorsFilter@51860933, org.springframework.security.web.authentication.logout.LogoutFilter@3b3429a, com.epicode.project.security.JwtAuthenticationFilter@2fb4657b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@531ea699, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ff2e4ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c9171a4, org.springframework.security.web.session.SessionManagementFilter@54c12077, org.springframework.security.web.access.ExceptionTranslationFilter@7cac6fcd, org.springframework.security.web.access.intercept.AuthorizationFilter@6039b06f]
+12:47:34.114 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:47:34.194 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:47:34.207 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:47:34.210 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.317 seconds (process running for 6077.304)
+12:47:34.213 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:49:25.185 [RMI TCP Connection(167)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:49:25.197 [RMI TCP Connection(167)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:49:25.199 [RMI TCP Connection(167)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-18 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:49:25.201 [RMI TCP Connection(167)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:49:25.201 [RMI TCP Connection(167)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown initiated...
+12:49:25.203 [RMI TCP Connection(167)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown completed.
+12:49:27.879 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 17032 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:49:27.882 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:49:27.947 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:49:27.947 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:49:28.814 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:49:28.907 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+12:49:29.654 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:49:29.663 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:49:29.663 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:49:29.743 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:49:29.744 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1796 ms
+12:49:29.897 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:49:29.965 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+12:49:29.968 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+12:49:30.115 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:49:30.286 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:49:30.317 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:49:30.527 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b6cbd50
+12:49:30.530 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:49:30.583 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@78f0b4c9
+12:49:30.890 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:49:31.744 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:49:31.913 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:49:32.557 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:49:32.975 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@35e5d069, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fc4c6c9, org.springframework.security.web.context.SecurityContextHolderFilter@46e211bb, org.springframework.security.web.header.HeaderWriterFilter@17a4634e, org.springframework.web.filter.CorsFilter@19e897b3, org.springframework.security.web.authentication.logout.LogoutFilter@73a4b74b, com.epicode.project.security.JwtAuthenticationFilter@764b2664, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a00ca2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fa29f95, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15200cf8, org.springframework.security.web.session.SessionManagementFilter@68d4bd1e, org.springframework.security.web.access.ExceptionTranslationFilter@2a4b384d, org.springframework.security.web.access.intercept.AuthorizationFilter@6cf4c3e7]
+12:49:33.159 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:49:33.328 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:49:33.366 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:49:33.378 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 5.942 seconds (process running for 6.746)
+12:49:38.250 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:49:38.251 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:49:38.254 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:49:38.773 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 72 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
+12:50:09.581 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:50:09.603 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:50:09.609 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:50:09.617 [Thread-5] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:50:09.624 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:50:09.632 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:50:09.643 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:50:09.793 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 17032 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:50:09.794 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:50:10.047 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:50:10.064 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+12:50:10.211 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:50:10.211 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:50:10.212 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:50:10.235 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:50:10.235 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 439 ms
+12:50:10.291 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:50:10.308 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:10.308 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:50:10.309 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+12:50:10.375 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5cfaadd
+12:50:10.376 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+12:50:10.385 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@143ddd74
+12:50:10.398 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:10.460 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:50:10.547 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:50:10.728 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:50:10.886 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d5444bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a588d18, org.springframework.security.web.context.SecurityContextHolderFilter@5c606c99, org.springframework.security.web.header.HeaderWriterFilter@57e886fc, org.springframework.web.filter.CorsFilter@50b7a1e5, org.springframework.security.web.authentication.logout.LogoutFilter@7ed73395, com.epicode.project.security.JwtAuthenticationFilter@4e969c49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60f881, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13ac4117, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@514007c7, org.springframework.security.web.session.SessionManagementFilter@be72ead, org.springframework.security.web.access.ExceptionTranslationFilter@4f826bc7, org.springframework.security.web.access.intercept.AuthorizationFilter@8a13afe]
+12:50:10.939 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:50:11.014 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:50:11.025 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:50:11.033 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.292 seconds (process running for 44.4)
+12:50:11.041 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:50:14.503 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:50:14.517 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:50:14.519 [Thread-7] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:50:14.520 [Thread-7] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-2 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:50:14.524 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:50:14.524 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+12:50:14.526 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+12:50:14.651 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 17032 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:50:14.652 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:50:14.848 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:50:14.865 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+12:50:15.006 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:50:15.006 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:50:15.006 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:50:15.031 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:50:15.032 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 377 ms
+12:50:15.098 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:50:15.111 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:15.112 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:50:15.113 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+12:50:15.192 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@4adc2a8e
+12:50:15.193 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+12:50:15.203 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@8d34cf0
+12:50:15.220 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:15.267 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:50:15.341 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:50:15.501 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:50:15.674 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@97cef86, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b97b3ce, org.springframework.security.web.context.SecurityContextHolderFilter@649575e7, org.springframework.security.web.header.HeaderWriterFilter@3a933f6, org.springframework.web.filter.CorsFilter@13904f3b, org.springframework.security.web.authentication.logout.LogoutFilter@20e85c23, com.epicode.project.security.JwtAuthenticationFilter@2c584eee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@447c4fb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e00f242, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@395d9c9f, org.springframework.security.web.session.SessionManagementFilter@5476a141, org.springframework.security.web.access.ExceptionTranslationFilter@23b06f32, org.springframework.security.web.access.intercept.AuthorizationFilter@fd4b660]
+12:50:15.732 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:50:15.800 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:50:15.813 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:50:15.818 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.226 seconds (process running for 49.185)
+12:50:15.820 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:50:18.462 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:50:18.462 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:50:18.463 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:50:18.649 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 184 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
+12:50:41.816 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+12:50:41.828 [Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+12:50:41.828 [Thread-11] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+12:50:41.833 [Thread-11] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+12:50:41.837 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:50:41.838 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+12:50:41.840 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+12:50:41.992 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Starting SpringSecurityProjectApplication using Java 17.0.2 with PID 17032 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecurityProject)
+12:50:41.992 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - No active profile set, falling back to 1 default profile: "default"
+12:50:42.204 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:50:42.224 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+12:50:42.349 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:50:42.349 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:50:42.350 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+12:50:42.376 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:50:42.376 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 381 ms
+12:50:42.421 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:50:42.430 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:42.432 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:50:42.435 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+12:50:42.505 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@3570d95e
+12:50:42.505 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+12:50:42.514 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@70634254
+12:50:42.526 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+12:50:42.560 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:50:42.635 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:50:42.787 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:50:42.932 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ee5235c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@743b9ce6, org.springframework.security.web.context.SecurityContextHolderFilter@31efd6cf, org.springframework.security.web.header.HeaderWriterFilter@6eec230, org.springframework.web.filter.CorsFilter@15ebf53d, org.springframework.security.web.authentication.logout.LogoutFilter@1757026, com.epicode.project.security.JwtAuthenticationFilter@48872985, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cee1a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c61b0b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ad8004e, org.springframework.security.web.session.SessionManagementFilter@627c0f87, org.springframework.security.web.access.ExceptionTranslationFilter@54bb26ec, org.springframework.security.web.access.intercept.AuthorizationFilter@ca06385]
+12:50:43.027 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:50:43.111 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:50:43.125 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:50:43.128 [restartedMain] INFO  c.e.p.SpringSecurityProjectApplication - Started SpringSecurityProjectApplication in 1.24 seconds (process running for 76.495)
+12:50:43.129 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+12:50:46.273 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:50:46.274 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:50:46.275 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:56:59.423 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+12:59:22.818 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]
+13:00:30.020 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Access Denied]

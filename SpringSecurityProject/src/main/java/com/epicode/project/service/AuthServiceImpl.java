@@ -21,8 +21,6 @@ import com.epicode.project.repository.RoleRepository;
 import com.epicode.project.repository.UserRepository;
 import com.epicode.project.security.JwtTokenProvider;
 
-
-
 @Service
 public class AuthServiceImpl implements AuthService {
 
@@ -53,11 +51,11 @@ public class AuthServiceImpl implements AuthService {
         				loginDto.getUsername(), loginDto.getPassword()
         		)
         ); 
-    	
+    	System.out.println(authentication);
         SecurityContextHolder.getContext().setAuthentication(authentication);
 
         String token = jwtTokenProvider.generateToken(authentication);
-
+        System.out.println(token);
         return token;
     }
 
@@ -100,8 +98,8 @@ public class AuthServiceImpl implements AuthService {
     }
     
     public ERole getRole(String role) {
-    	if(role.equals("ROLE_ADMIN")) return ERole.ROLE_ADMIN;
-    	else if(role.equals("ROLE_MODERATOR")) return ERole.ROLE_MODERATOR;
+    	if(role.equals("ADMIN")) return ERole.ROLE_ADMIN;
+    	else if(role.equals("MODERATOR")) return ERole.ROLE_MODERATOR;
     	else return ERole.ROLE_USER;
     }
     
