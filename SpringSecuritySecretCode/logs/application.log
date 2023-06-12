@@ -19952,3 +19952,34 @@ java.lang.Error: Unresolved compilation problem:
 19:14:25.032 [Thread-62] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 19:14:25.033 [Thread-62] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
 19:14:25.034 [Thread-62] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+19:14:25.102 [restartedMain] INFO  c.e.p.SpringSecuritySecretCodeApplication - Starting SpringSecuritySecretCodeApplication using Java 17.0.2 with PID 23444 (C:\Users\emau7\workspace-Epicode_FS0123\SpringSecuritySecretCode\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\SpringSecuritySecretCode)
+19:14:25.102 [restartedMain] INFO  c.e.p.SpringSecuritySecretCodeApplication - No active profile set, falling back to 1 default profile: "default"
+19:14:25.232 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:14:25.244 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+19:14:25.318 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+19:14:25.318 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:14:25.318 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+19:14:25.336 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:14:25.336 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 233 ms
+19:14:25.372 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:14:25.379 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+19:14:25.379 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+19:14:25.380 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+19:14:25.428 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@553df2db
+19:14:25.428 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+19:14:25.434 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@71cf29b0
+19:14:25.446 [restartedMain] WARN  o.h.b.i.SessionFactoryOptionsBuilder - Unrecognized hibernate.hbm2ddl.auto value: 'drop-and-create'.  Supported values include 'create', 'create-drop', 'create-only', 'drop', 'update', 'none' and 'validate'.  Ignoring
+19:14:25.446 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+19:14:25.464 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:14:25.597 [restartedMain] INFO  o.h.t.s.i.e.GenerationTargetToDatabase - HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+19:14:25.597 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:14:25.708 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:14:25.816 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@451f7ebf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@174c4394, org.springframework.security.web.context.SecurityContextHolderFilter@5201b7b3, org.springframework.security.web.header.HeaderWriterFilter@6e9b91ea, org.springframework.web.filter.CorsFilter@14db747a, org.springframework.security.web.authentication.logout.LogoutFilter@5020543c, com.epicode.project.security.security.JwtAuthenticationFilter@4689f911, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5409f563, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@662f2ac9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3813f1fc, org.springframework.security.web.session.SessionManagementFilter@2ee8fda1, org.springframework.security.web.access.ExceptionTranslationFilter@41b8f6d6, org.springframework.security.web.access.intercept.AuthorizationFilter@54ff036e]
+19:14:25.858 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+19:14:25.916 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:14:25.927 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+19:14:25.931 [restartedMain] INFO  c.e.p.SpringSecuritySecretCodeApplication - Started SpringSecuritySecretCodeApplication in 0.855 seconds (process running for 595.287)
+19:14:26.035 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:14:33.851 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:14:33.851 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:14:33.852 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
