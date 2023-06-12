@@ -11,8 +11,10 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
+import com.epicode.project.security.entity.AuthUser;
 import com.epicode.project.security.entity.ERole;
 import com.epicode.project.security.entity.Role;
+import com.epicode.project.security.payload.RegisterDto;
 import com.epicode.project.security.repository.RoleRepository;
 import com.epicode.project.security.repository.UserRepository;
 import com.epicode.project.security.service.AuthService;
@@ -36,6 +38,8 @@ public class AuthRunner implements ApplicationRunner {
 		// Metodo da lanciare solo la prima volta
 		// Serve per salvare i ruoli nel DB
 		setRoleDefault();
+		saveUser();
+		//getAllRole();
 		
 	}
 	
@@ -65,6 +69,23 @@ public class AuthRunner implements ApplicationRunner {
 //		userRole.add(user);
 	}
 	
+	private void saveUser() {
+		RegisterDto u = new RegisterDto(); 
+		u.setName("Mario");
+		u.setLastname("Rossi");
+		u.setUsername("marros");
+		u.setEmail("m.rossi@example.com");
+		u.setCreditCard("1234 5678 9999");
+		u.setSecretCode("1111");
+		u.setPassword("qwerty");
+		u.setAlfaCode("A1b2-!Z");
+		authService.register(u);
+	}
+	
+	private void getAllRole() {
+		List<Role> listaRuoli = roleRepository.findAll();
+		listaRuoli.forEach(r -> System.out.println(r));
+	}
 	
 
 }

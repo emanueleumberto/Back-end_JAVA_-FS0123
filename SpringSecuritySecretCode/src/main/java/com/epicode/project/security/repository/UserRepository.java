@@ -21,5 +21,5 @@ public interface UserRepository extends JpaRepository<AuthUser, Long> {
 
     Boolean existsByEmail(String email);
 
-	List<AuthUser> findByCreditCard(String creditCard);
+	//List<AuthUser> findByCreditCard(String creditCard);
 }

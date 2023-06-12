@@ -85,6 +85,7 @@ public class AuthServiceImpl implements AuthService {
         user.setDate(LocalDateTime.now());
         user.setCreditCard(registerDto.getCreditCard());
         user.setSecretCode(registerDto.getSecretCode());
+        user.setAlfaCode(registerDto.getAlfaCode());
 
         Set<Role> roles = new HashSet<>();
         
@@ -111,13 +112,13 @@ public class AuthServiceImpl implements AuthService {
     	else return ERole.ROLE_USER;
     }
     
- // get All Users
+    @Override
  	public List<AuthUser> getAll() {
  		return userRepository.findAll();
  	}
  	
- 	public List<AuthUser> getByCreditCard(String creditCard) {
- 		return userRepository.findByCreditCard(creditCard);
- 	}
+// 	public List<AuthUser> getByCreditCard(String creditCard) {
+// 		return userRepository.findByCreditCard(creditCard);
+// 	}
     
 }

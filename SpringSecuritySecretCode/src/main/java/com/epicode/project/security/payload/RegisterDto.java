@@ -21,6 +21,7 @@ public class RegisterDto {
     private String password;
     private String creditCard;
     private String secretCode;
+    private String alfaCode;
     // Passagio di ruoli dal client (Facoltativo)
     private Set<String> roles;
 }
@@ -34,5 +35,6 @@ public class RegisterDto {
     "password": "qwerty",
     "creditCard": "1234 5678 9999",
     "secretCode": "12345",
+    "alfaCode": "A1b2-!Z",
     "roles": ["MODERATOR", "USER"]
 }*/
