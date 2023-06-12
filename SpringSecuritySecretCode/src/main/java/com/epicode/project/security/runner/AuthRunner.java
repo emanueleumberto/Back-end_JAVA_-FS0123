@@ -35,7 +35,7 @@ public class AuthRunner implements ApplicationRunner {
 		System.out.println("Run...");
 		// Metodo da lanciare solo la prima volta
 		// Serve per salvare i ruoli nel DB
-		//setRoleDefault();
+		setRoleDefault();
 		
 	}
 	

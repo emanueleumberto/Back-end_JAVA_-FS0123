@@ -2,6 +2,7 @@ package com.epicode.project.security.service;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.http.HttpStatus;
@@ -82,6 +83,8 @@ public class AuthServiceImpl implements AuthService {
         user.setPassword(passwordEncoder.encode(registerDto.getPassword()));
         user.setActive(false);
         user.setDate(LocalDateTime.now());
+        user.setCreditCard(registerDto.getCreditCard());
+        user.setSecretCode(registerDto.getSecretCode());
 
         Set<Role> roles = new HashSet<>();
         
@@ -107,5 +110,14 @@ public class AuthServiceImpl implements AuthService {
     	else if(role.equals("MODERATOR")) return ERole.ROLE_MODERATOR;
     	else return ERole.ROLE_USER;
     }
+    
+ // get All Users
+ 	public List<AuthUser> getAll() {
+ 		return userRepository.findAll();
+ 	}
+ 	
+ 	public List<AuthUser> getByCreditCard(String creditCard) {
+ 		return userRepository.findByCreditCard(creditCard);
+ 	}
     
 }

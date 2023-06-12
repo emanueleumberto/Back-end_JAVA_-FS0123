@@ -12,6 +12,9 @@ import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.epicode.project.security.configuration.CreditCardConverter;
+import com.epicode.project.security.configuration.SecretCodeConverter;
+
 
 @Setter
 @Getter
@@ -36,6 +39,10 @@ public class AuthUser {
     private String password;
     private Boolean active;
     private LocalDateTime date;
+    @Convert(converter = CreditCardConverter.class, disableConversion = false)
+    private String creditCard;
+    @Convert(converter = SecretCodeConverter.class)
+    private String secretCode;
     
     
     // Il caricamento EAGER delle raccolte significa che vengono recuperate 
