@@ -76,7 +76,7 @@ public class AuthRunner implements ApplicationRunner {
 		u.setUsername("marros");
 		u.setEmail("m.rossi@example.com");
 		u.setCreditCard("1234 5678 9999");
-		u.setSecretCode("1111");
+		u.setSecretCode("1983");
 		u.setPassword("qwerty");
 		u.setAlfaCode("A1b2-!Z");
 		authService.register(u);
