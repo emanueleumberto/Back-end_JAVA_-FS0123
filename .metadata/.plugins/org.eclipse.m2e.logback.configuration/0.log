@@ -9454,3 +9454,132 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 2023-06-13 18:04:46,338 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-06-13 18:04:46,346 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-06-13 18:04:46,350 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringMicroServizio_2\src\test\resources
+2023-06-14 14:14:53,300 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-14 14:14:56,512 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-14 14:14:56,575 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-14 14:14:56,591 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit\src\test\resources
+2023-06-15 08:54:20,957 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-15 08:54:24,756 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-15 08:54:24,799 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 08:54:24,809 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit\src\test\resources
+2023-06-15 16:09:07,965 [Worker-89: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ragalzi:prenotazioni:0.0.1-SNAPSHOT @ C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\pom.xml.
+2023-06-15 16:09:09,142 [Worker-89: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /prenotazioni/src/main/java
+2023-06-15 16:09:09,142 [Worker-89: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /prenotazioni/src/main/resources
+2023-06-15 16:09:09,160 [Worker-89: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /prenotazioni/src/main/resources
+2023-06-15 16:09:09,177 [Worker-89: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /prenotazioni/src/test/java
+2023-06-15 16:09:10,209 [Worker-89: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2023-06-15 16:09:12,116 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-15 16:09:12,133 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-15 16:09:12,155 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 16:12:14,055 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 16:12:14,055 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 16:12:14,060 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 16:13:59,908 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 16:13:59,908 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 16:13:59,913 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:09:38,928 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:09:38,929 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:09:38,936 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:19:42,435 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:19:42,435 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:19:42,440 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:20:14,003 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:20:14,003 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:20:14,009 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:20:19,932 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:20:19,932 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:20:19,939 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:21:08,049 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:21:08,050 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:21:08,055 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:21:12,344 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:21:12,345 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:21:12,349 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:31:03,633 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-15 18:31:03,650 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:31:03,656 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:42:51,835 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:42:51,835 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:42:51,839 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:43:13,788 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:43:13,789 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:43:13,794 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:43:37,529 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:43:37,529 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:43:37,534 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:45:32,222 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:45:32,223 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:45:32,229 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:45:57,290 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:45:57,290 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:45:57,297 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:46:06,735 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:06,736 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:06,740 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:46:11,179 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:11,179 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:11,183 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:46:35,383 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:35,383 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:35,387 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:46:42,423 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:42,423 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:46:42,430 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:47:04,974 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:47:04,974 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:47:04,979 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:49:01,876 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:01,876 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:01,881 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:49:12,530 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:12,531 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:12,535 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:49:28,307 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:28,307 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:49:28,313 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:51:17,545 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:51:17,545 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:51:17,550 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:53:19,993 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:53:19,994 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:53:19,998 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:53:26,890 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:53:26,890 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:53:26,895 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:54:03,737 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:54:03,737 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:54:03,741 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:54:59,079 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:54:59,080 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:54:59,086 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:56:06,291 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:56:06,291 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:56:06,295 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:56:15,543 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:56:15,543 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:56:15,547 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:57:00,117 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:00,118 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:00,124 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:57:06,170 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:06,171 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:06,175 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:57:49,030 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:49,031 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:57:49,036 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:58:26,849 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-15 18:58:26,865 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:58:26,871 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:58:57,582 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:58:57,582 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:58:57,587 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:59:24,002 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:59:24,002 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:59:24,006 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-15 18:59:56,096 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:59:56,097 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-15 18:59:56,103 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni\src\test\resources
+2023-06-16 08:48:03,618 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-16 08:48:07,914 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-16 08:48:07,955 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-16 08:48:07,965 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\emau7\workspace-Epicode_FS0123\SpringAppTestJunit\src\test\resources

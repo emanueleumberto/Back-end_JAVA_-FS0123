@@ -1,0 +1,188 @@
+08:55:28.310 [main] INFO  com.ragalzi.prenotazioni.AuthTest - Starting AuthTest using Java 17.0.2 with PID 7992 (started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni)
+08:55:28.337 [main] INFO  com.ragalzi.prenotazioni.AuthTest - No active profile set, falling back to 1 default profile: "default"
+08:55:29.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:55:29.159 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128 ms. Found 5 JPA repository interfaces.
+08:55:29.897 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:55:30.014 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+08:55:30.020 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+08:55:30.292 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+08:55:30.406 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08:55:30.437 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08:55:30.705 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22da200e
+08:55:30.710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08:55:30.762 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7be38eba
+08:55:31.064 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+08:55:31.677 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:55:31.700 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.700 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "postazioni" non esiste, saltata
+08:55:31.701 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.701 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+08:55:31.701 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.701 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+08:55:31.702 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.702 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+08:55:31.703 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.703 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+08:55:31.705 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.705 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "edifici" non esiste, saltata
+08:55:31.705 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.705 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "postazioni" non esiste, saltata
+08:55:31.706 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.706 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "prenotazione" non esiste, saltata
+08:55:31.706 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.706 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "roles" non esiste, saltata
+08:55:31.707 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.707 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users" non esiste, saltata
+08:55:31.708 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:31.708 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users_roles" non esiste, saltata
+08:55:31.870 [main] INFO  o.h.t.s.i.e.GenerationTargetToDatabase - HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+08:55:31.873 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:55:32.730 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:55:33.320 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47ab3688, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47fbf95e, org.springframework.security.web.context.SecurityContextHolderFilter@749ffdc7, org.springframework.security.web.header.HeaderWriterFilter@504b4a97, org.springframework.web.filter.CorsFilter@49482761, org.springframework.security.web.authentication.logout.LogoutFilter@32eb38e5, com.ragalzi.prenotazioni.security.security.JwtAuthenticationFilter@76980c75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17554316, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@518b0c12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ac0fd1d, org.springframework.security.web.session.SessionManagementFilter@4f6a5cc9, org.springframework.security.web.access.ExceptionTranslationFilter@3d2ff73a, org.springframework.security.web.access.intercept.AuthorizationFilter@49e92724]
+08:55:33.726 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+08:55:33.848 [main] INFO  com.ragalzi.prenotazioni.AuthTest - Started AuthTest in 5.942 seconds (process running for 7.042)
+08:55:34.674 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08:55:34.674 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:55:34.756 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08:55:34.759 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+08:55:47.191 [main] INFO  c.r.prenotazioni.PrenotazioneTest - Starting PrenotazioneTest using Java 17.0.2 with PID 25216 (started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni)
+08:55:47.228 [main] INFO  c.r.prenotazioni.PrenotazioneTest - No active profile set, falling back to 1 default profile: "default"
+08:55:47.854 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:55:47.935 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+08:55:48.618 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:55:48.728 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+08:55:48.731 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+08:55:48.905 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+08:55:49.014 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08:55:49.034 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08:55:49.272 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a457c2b
+08:55:49.275 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08:55:49.308 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1de7f898
+08:55:49.584 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+08:55:50.255 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:55:50.271 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.272 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "postazioni" non esiste, saltata
+08:55:50.272 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.272 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+08:55:50.273 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.273 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+08:55:50.274 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.274 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+08:55:50.275 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.275 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+08:55:50.276 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.276 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "edifici" non esiste, saltata
+08:55:50.276 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.276 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "postazioni" non esiste, saltata
+08:55:50.277 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.277 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "prenotazione" non esiste, saltata
+08:55:50.277 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.277 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "roles" non esiste, saltata
+08:55:50.277 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.278 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users" non esiste, saltata
+08:55:50.278 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+08:55:50.278 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users_roles" non esiste, saltata
+08:55:50.496 [main] INFO  o.h.t.s.i.e.GenerationTargetToDatabase - HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+08:55:50.498 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:55:51.363 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:55:51.980 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69d2c460, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34a99d8, org.springframework.security.web.context.SecurityContextHolderFilter@263f6e96, org.springframework.security.web.header.HeaderWriterFilter@39921410, org.springframework.web.filter.CorsFilter@3e984100, org.springframework.security.web.authentication.logout.LogoutFilter@6dc7b7f, com.ragalzi.prenotazioni.security.security.JwtAuthenticationFilter@703eead0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@414d466e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39acf187, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e6c544, org.springframework.security.web.session.SessionManagementFilter@4964d801, org.springframework.security.web.access.ExceptionTranslationFilter@51d2d336, org.springframework.security.web.access.intercept.AuthorizationFilter@73633230]
+08:55:52.371 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+08:55:52.541 [main] INFO  c.r.prenotazioni.PrenotazioneTest - Started PrenotazioneTest in 5.693 seconds (process running for 6.678)
+08:55:53.360 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08:55:53.360 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+08:55:53.461 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08:55:53.464 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:04:10.643 [main] INFO  com.ragalzi.prenotazioni.AuthTest - Starting AuthTest using Java 17.0.2 with PID 12688 (started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni)
+09:04:10.668 [main] INFO  com.ragalzi.prenotazioni.AuthTest - No active profile set, falling back to 1 default profile: "default"
+09:04:11.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:04:11.637 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+09:04:12.568 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:04:12.716 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+09:04:12.721 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+09:04:13.036 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+09:04:13.199 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:04:13.229 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:04:13.610 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58164e9a
+09:04:13.620 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:04:13.660 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3957d88b
+09:04:14.077 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+09:04:14.898 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:04:14.919 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.919 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "postazioni" non esiste, saltata
+09:04:14.920 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.920 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+09:04:14.921 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.921 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+09:04:14.922 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.922 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+09:04:14.923 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.923 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+09:04:14.923 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.923 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "edifici" non esiste, saltata
+09:04:14.924 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.924 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "postazioni" non esiste, saltata
+09:04:14.925 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.925 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "prenotazione" non esiste, saltata
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "roles" non esiste, saltata
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users" non esiste, saltata
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:14.926 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users_roles" non esiste, saltata
+09:04:15.134 [main] INFO  o.h.t.s.i.e.GenerationTargetToDatabase - HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+09:04:15.138 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:04:16.211 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:04:16.848 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b3b2290, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47d7e4b6, org.springframework.security.web.context.SecurityContextHolderFilter@dd3e1e3, org.springframework.security.web.header.HeaderWriterFilter@2d568cff, org.springframework.web.filter.CorsFilter@623ed5ed, org.springframework.security.web.authentication.logout.LogoutFilter@5ca006ac, com.ragalzi.prenotazioni.security.security.JwtAuthenticationFilter@68feca3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7878459f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f6a5cc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49e92724, org.springframework.security.web.session.SessionManagementFilter@414d466e, org.springframework.security.web.access.ExceptionTranslationFilter@5f01361e, org.springframework.security.web.access.intercept.AuthorizationFilter@3e984100]
+09:04:17.322 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+09:04:17.484 [main] INFO  com.ragalzi.prenotazioni.AuthTest - Started AuthTest in 7.271 seconds (process running for 8.61)
+09:04:18.460 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:04:18.460 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+09:04:18.569 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:04:18.572 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:04:47.518 [main] INFO  c.r.prenotazioni.PrenotazioneTest - Starting PrenotazioneTest using Java 17.0.2 with PID 19464 (started by emau7 in C:\Users\emau7\workspace-Epicode_FS0123\Git_FS0123-main\Git_FS0123-main\prenotazioni)
+09:04:47.564 [main] INFO  c.r.prenotazioni.PrenotazioneTest - No active profile set, falling back to 1 default profile: "default"
+09:04:48.442 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:04:48.542 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+09:04:49.461 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:04:49.662 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+09:04:49.673 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+09:04:49.949 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+09:04:50.105 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:04:50.136 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:04:50.480 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64c25a62
+09:04:50.483 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:04:50.518 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@63de4fa
+09:04:50.867 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+09:04:51.722 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:04:51.745 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.745 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "postazioni" non esiste, saltata
+09:04:51.746 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.746 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+09:04:51.748 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.748 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "prenotazione" non esiste, saltata
+09:04:51.749 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.749 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+09:04:51.750 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.750 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la relazione "users_roles" non esiste, saltata
+09:04:51.750 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.750 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "edifici" non esiste, saltata
+09:04:51.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "postazioni" non esiste, saltata
+09:04:51.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.751 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "prenotazione" non esiste, saltata
+09:04:51.752 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.752 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "roles" non esiste, saltata
+09:04:51.753 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.753 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users" non esiste, saltata
+09:04:51.753 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+09:04:51.754 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - la tabella "users_roles" non esiste, saltata
+09:04:51.965 [main] INFO  o.h.t.s.i.e.GenerationTargetToDatabase - HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+09:04:51.970 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:04:53.121 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:04:53.765 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1372696b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ca7bddd, org.springframework.security.web.context.SecurityContextHolderFilter@6e4bccc, org.springframework.security.web.header.HeaderWriterFilter@6dde913e, org.springframework.web.filter.CorsFilter@206e5183, org.springframework.security.web.authentication.logout.LogoutFilter@115924ba, com.ragalzi.prenotazioni.security.security.JwtAuthenticationFilter@236f3885, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d2ff73a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@736a8aea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@325236f5, org.springframework.security.web.session.SessionManagementFilter@769a9b7a, org.springframework.security.web.access.ExceptionTranslationFilter@32bae609, org.springframework.security.web.access.intercept.AuthorizationFilter@355b4c34]
+09:04:54.194 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+09:04:54.344 [main] INFO  c.r.prenotazioni.PrenotazioneTest - Started PrenotazioneTest in 7.296 seconds (process running for 8.567)
+09:04:55.299 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:04:55.299 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+09:04:55.457 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:04:55.463 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

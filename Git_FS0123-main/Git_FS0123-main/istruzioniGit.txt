@@ -1,0 +1,26 @@
+- git init -> Crea una repository locale .git
+- git status -> Controlla lo stato della repository
+- git add <nomefile> -> traccia un file
+- git add .ext -> tarrcia tutti i i file con una determinata estensione
+- git add . -> traccia tutti i file
+- git rm --cached <file>.. -> rimuove uno o più file datta staging area
+- git commit -m "messaggio del commit" -> salvo i file nella repository locale
+- git clone https://github.com/accountgit/nomerepository.git -> clono in locale una repository remota
+- git branch -M main -> creo un ramo principale di nome main
+- git remote add origin https://github.com/accountgit/nomerepository.git -> collegare una repository locale con una repository remota
+- git push -u origin main -> esegue il push di tutto il contenuto della repository locale nella repository remota
+- git pull -> per scaricare in locale le modfiche contenute nella repo remota
+- git branch nomebranch -> stacco un nuovo ramo
+- git checkout nomebranch -> mi sposto sul nuovo ramo
+- git checkout -b nomebranch -> stacco un nuovo ramo e mi sposto sul nuovo ramo
+- git branch -> visualizza un elenco di branch
+- git merge nomebranch -> unire il brach secondario con il branch principale
+- git branch -d nomebranch -> cancello un ramo che ho già unito
+- git branch -D nomebranch -> cancello un ramo che ha delle modifiche che non sono state unite con il ramo principale
+- git branch --no-merged -> mostra un elenco di rami non ancora uniti al ramo principale
+- git tag v1.0.1 -> Aggiunta di un tag lightweight
+- git tag -a v1.1.0 -m 'Aggiunta di una nuova feature' -> Aggiunta di un tag annotated
+- git tag -> Mostra un elenco di tag inseriti
+- git log -> stampare un elenco di commit
+
+ 

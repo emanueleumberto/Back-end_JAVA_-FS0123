@@ -1,0 +1,36 @@
+15:05:42.899 [restartedMain] INFO  c.r.p.PrenotazioniApplication - Starting PrenotazioniApplication using Java 17.0.7 with PID 757903 (/home/andrea/Workspace/Git_FS0123/prenotazioni/target/classes started by andrea in /home/andrea/Workspace/Git_FS0123)
+15:05:42.901 [restartedMain] INFO  c.r.p.PrenotazioniApplication - No active profile set, falling back to 1 default profile: "default"
+15:05:42.934 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:05:42.935 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:05:43.435 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:05:43.486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+15:05:44.121 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:05:44.132 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:05:44.133 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+15:05:44.214 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:05:44.215 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+15:05:44.378 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:05:44.420 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+15:05:44.423 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+15:05:44.594 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+15:05:44.731 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:05:44.743 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:05:45.034 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2dedfe12
+15:05:45.035 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:05:45.057 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@52e64658
+15:05:45.241 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+15:05:45.618 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:05:45.683 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+15:05:45.683 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+15:05:45.692 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+15:05:45.693 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_r43af9ap4edm43mmtq01oddj6" of relation "users" does not exist, skipping
+15:05:45.706 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:05:46.019 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:05:46.229 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e7cd789, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e82817b, org.springframework.security.web.context.SecurityContextHolderFilter@3598f9c6, org.springframework.security.web.header.HeaderWriterFilter@6059ebc0, org.springframework.web.filter.CorsFilter@5dea7d8, org.springframework.security.web.authentication.logout.LogoutFilter@59bbb4f7, com.ragalzi.prenotazioni.security.security.JwtAuthenticationFilter@2129ab77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aedd4ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169a7c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42d51d6a, org.springframework.security.web.session.SessionManagementFilter@34c6f07b, org.springframework.security.web.access.ExceptionTranslationFilter@31ae0709, org.springframework.security.web.access.intercept.AuthorizationFilter@22e6510c]
+15:05:46.351 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+15:05:46.463 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:05:46.483 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:05:46.497 [restartedMain] INFO  c.r.p.PrenotazioniApplication - Started PrenotazioniApplication in 3.894 seconds (process running for 4.167)
+15:05:57.099 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:05:57.102 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:05:57.109 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
